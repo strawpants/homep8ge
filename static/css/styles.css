@@ -14,7 +14,7 @@ background-size:cover;
 }
 
 body .hugo-blog {
- /* font-family: 'Open Sans','Cabin', sans-serif;*/
+  font-family: 'Open Sans','Helvetica', sans-serif;
   font-size: 16px;
 }
 .hugo-blog .hugo-blog__posts {
@@ -79,6 +79,7 @@ body .hugo-blog {
   flex-direction: row;
   align-items: flex-end;
   cursor: pointer;
+  min-height: 180px;
 }
 .hugo-blog .mdl-card__media a,
 .hugo-blog .mdl-card__title a {
@@ -285,7 +286,7 @@ body .hugo-blog {
 /*  align-items: center;*/
 /*}*/
 .hugo-blog--blogpost .meta + .mdl-card__supporting-text {
-  border: 0;<link rel="icon" href="http://example.com/favicon.png">
+  border: 0;
   display: flex;
   flex-direction: column;
 }
@@ -454,7 +455,13 @@ font-size:1.2em;
   text-decoration: none;
 }
 
-.hugo-blog .csl-entry{
+.hugo-blog .hugo-ref-item{
 line-height:1.4em;
-margin:5px
+margin:5px;
+display:flex;
+}
+
+.hugo-blog .csl-entry{
+max-width:90%;
+margin-left:5px;
 }
