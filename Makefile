@@ -12,4 +12,5 @@ show:
 	hugo server --baseURL public/
 
 clean:
-	rm -rf public/*
+	cd public
+	rm -rf 404.html  about  categories  css  favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags
