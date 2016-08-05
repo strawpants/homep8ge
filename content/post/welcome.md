@@ -7,9 +7,11 @@ author:
   name: Roelof Rietbroek
   twitter: https://twitter.com/
   website: http://wobbly.earth/about
+
 cardbackground: '#263238'
 cardheaderimage: /images/default.jpg
 cardthumbimage: /images/default.jpg
+tweetshare: "Do academics really need a homepage?"
 categories:
 - post
 date: 2016-06-30T16:50:04+02:00

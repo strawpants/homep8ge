@@ -10,6 +10,9 @@ publish:
 show:
 	@echo 'running test server, visit http://localhost:1313 to preview the page'
 	hugo server --baseURL public/
+#make an automated publication list
+pubs:
+	tools/mkPublist.py
 
 clean:
 	cd public

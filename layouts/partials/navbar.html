@@ -18,7 +18,7 @@
             </nav>
         </div>
     </header>
-    <div class="mdl-layout__drawer">
+    <div class="mdl-layout__drawer" aria-hidden="true">
         {{ if eq .Title "Projects" }}<span class="mdl-layout-title">{{ title .Title }}</span>{{end}}
         <nav class="mdl-navigation">
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/">Home</a>
@@ -28,3 +28,4 @@
             <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/about/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/about">About</a>
         </nav>
     </div>
+   
