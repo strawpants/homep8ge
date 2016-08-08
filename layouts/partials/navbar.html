@@ -20,13 +20,13 @@
     </header>
 
     <div class="mdl-layout__drawer mdl-color--primary" aria-hidden="true">
-      <span class="mdl-layout-title">Wobbly Earth</span>
-        <nav class="mdl-navigation">
+    {{ if isset .Site.Params "logo" }}<div class="mdl-layout-title"> <div class="minilogo" style="background-image:url('/images/WBlogo_64x64.png');"></div></div>{{end}}
+    <nav class="mdl-navigation">
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/">Home</a>
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/post">Posts</a>
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/project/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/project">Projects</a>
             <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/publications/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/publications">Publications</a>
             <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/about/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/about">About</a>
- </nav>
+    </nav>
     </div>
    

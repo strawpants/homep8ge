@@ -11,6 +11,7 @@ author:
 cardbackground: '#263238'
 cardheaderimage: /images/default.jpg
 cardthumbimage: /images/default.jpg
+cardtitlecolor: white
 tweetshare: "Do academics really need a homepage?"
 categories:
 - post

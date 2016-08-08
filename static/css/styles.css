@@ -450,14 +450,30 @@ body .hugo-blog {
 }
 
 .hugo-blog .mdl-layout__header--transparent .mdl-navigation__link.active,
-.hugo-blog .mdl-layout__drawer .mdl-navigation__link.active {
+.hugo-blog .mdl-layout__drawer .mdl_navigation .mdl-navigation__link.active {
 
 }
+
+
+
 
 .hugo-blog .mdl-layout__header--transparent .mdl-navigation__link:hover {
-  
+ 
 }
 
+.hugo-blog .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+color:white;
+opacity:1;
+}
+
+.hugo-blog .mdl-layout__drawer{
+border:none;
+}    
+
+.hugo-blog .mdl-layout-title{
+  padding-top:20px;
+    
+}
 
 .hugo-blog .mdl-navigation__link {
 font-size:1.2em;
@@ -473,11 +489,6 @@ font-size:1.2em;
   text-decoration: none;
 }
 
-.hugo-blog .hugo-ref-item{
-line-height:1.4em;
-margin:5px;
-display:flex;
-}
 
 .hugo-blog .csl-entry{
 margin-left:5px;
@@ -488,12 +499,16 @@ font-family:"Open Sans";
     color:white;
     font-size:1.5em;
    text-transform:none;
+   height:1.9em;
+   
 }
 
 .hugo-blog .twitter-share{
     background-color:#1da1f2;
+   
 }
 
 .hugo-blog .facebook-share{
     background-color:#3b5998;
+    
 }

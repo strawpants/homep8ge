@@ -13,6 +13,7 @@ MetaDataFormat = "yaml"
     background = "/images/background.jpg"
     description = "A place to publish my incomprehensible ramblings" #meta description
     image = "/images/avatar.jpg" #for frontpage profile card
+    logo = "/static/images/WBlogo_64x64.png"
     website = "example.com"
     email = "roelof@geod.uni-bonn.de"
     twitter = "https://twitter.com/r_rietje"
