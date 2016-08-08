@@ -9,7 +9,7 @@ MetaDataFormat = "yaml"
 [params]
     author = "Roelof Rietbroek"
     avatar = "/images/avatar.jpg"
-    postimage= "/images/schuifmaat.jpg"
+    postimage= "/images/speicherstadt.jpg"
     background = "/images/background.jpg"
     description = "A place to publish my incomprehensible ramblings" #meta description
     image = "/images/avatar.jpg" #for frontpage profile card

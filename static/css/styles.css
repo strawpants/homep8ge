@@ -18,10 +18,16 @@ body .hugo-blog {
   font-size: 16px;
 }
 
+
 .hugo-blog p{
     font-size: 16px;
     font-family: 'Open Sans','Helvetica', sans-serif;
 }
+
+.hugo-blog .mdl-button{
+    font-family: 'Open Sans','Helvetica', sans-serif;
+}
+
 
 .hugo-blog .hugo-blog__posts {
   max-width: 900px;
@@ -465,6 +471,8 @@ body .hugo-blog {
 color:white;
 opacity:1;
 }
+
+
 
 .hugo-blog .mdl-layout__drawer{
 border:none;
