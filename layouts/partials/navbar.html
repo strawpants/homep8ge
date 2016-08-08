@@ -18,9 +18,9 @@
             </nav>
         </div>
     </header>
-<<<<<<< HEAD
-    <div class="mdl-layout__drawer" aria-hidden="true">
-      <span class="mdl-layout-title">Wobbly Earth</span>{{end}}
+
+    <div class="mdl-layout__drawer mdl-color--primary" aria-hidden="true">
+      <span class="mdl-layout-title">Wobbly Earth</span>
         <nav class="mdl-navigation">
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/">Home</a>
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active mdl-color-text--accent{{end}}{{end}}' href="/post">Posts</a>

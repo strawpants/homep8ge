@@ -17,6 +17,12 @@ body .hugo-blog {
   font-family: 'Open Sans','Helvetica', sans-serif;
   font-size: 16px;
 }
+
+.hugo-blog p{
+    font-size: 16px;
+    font-family: 'Open Sans','Helvetica', sans-serif;
+}
+
 .hugo-blog .hugo-blog__posts {
   max-width: 900px;
   padding: 0px;
@@ -308,6 +314,9 @@ body .hugo-blog {
   max-width: 100%;
   height: auto;
 }
+
+
+
 .hugo-blog--blogpost .comments {
   display: flex;
   flex-direction: column;
@@ -471,8 +480,8 @@ display:flex;
 }
 
 .hugo-blog .csl-entry{
-max-width:90%;
 margin-left:5px;
+font-family:"Open Sans";
 }
 
 .hugo-blog .social-share-button{
