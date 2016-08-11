@@ -15,5 +15,4 @@ pubs:
 	tools/mkPublist.py
 
 clean:
-	cd public
-	rm -rf 404.html  about  categories  css  favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags
+	cd public; rm -rf 404.html  about  categories  css  favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags publications

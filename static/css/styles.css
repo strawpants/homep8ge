@@ -28,6 +28,14 @@ body .hugo-blog {
     font-family: 'Open Sans','Helvetica', sans-serif;
 }
 
+.hugo-blog p a{
+text-decoration:none;
+    
+}
+.hugo-blog p a:hover{
+text-decoration:underline;
+    
+}
 
 .hugo-blog .hugo-blog__posts {
   max-width: 900px;

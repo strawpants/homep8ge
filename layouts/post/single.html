@@ -15,27 +15,7 @@
             </div>
             
             <div class="section-spacer"></div>
-            <button id="share-flapout" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button">
-                <i class="material-icons_2x icon ion-android-share-alt"></i>
-            </button>
-
-            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="share-flapout">
-                  <li class="mdl-menu__item ">
-                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect social-share-button twitter-share" href="https://twitter.com/intent/tweet?text={{ .Params.tweetshare}}&url={{ .Permalink }}">
-                    <i class="material-icons icon ion-social-twitter "></i> <small>
-                   tweet
-                   </small>                
-                   </a>
-                </li>
-                <li class="mdl-menu__item ">
-                                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect social-share-button facebook-share" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
-                    <i class="material-icons icon ion-social-facebook "></i> <small>
-                    like
-                   </small>                
-                   </a>
-                </li>
-                  
-            </ul>
+            {{partial "sharebuttons.html" .}}
         </div>
             
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text">

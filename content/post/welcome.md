@@ -7,20 +7,21 @@ author:
   name: Roelof Rietbroek
   twitter: https://twitter.com/
   website: http://wobbly.earth/about
-
 cardbackground: '#263238'
 cardheaderimage: /images/default.jpg
 cardthumbimage: /images/default.jpg
 cardtitlecolor: white
-tweetshare: "Do academics really need a homepage?"
 categories:
 - post
+- opinion
 date: 2016-06-30T16:50:04+02:00
 description: first post with Hugo website engine
 tags:
-- meta
-- test
+- homepage
+- hugo
+- academics
 title: welcome
+tweetshare: Do academics really need a homepage?
 ---
 
 On the more material side, you may consider structuring your presentation using narratives, making use of effective graphics and trying to eliminate those parts from your presentation which do not contribute to it. Just that someone at Microsoft thought it was a cool idea to offer transition effects like slides disintegrating in blocks and stars, doesn't mean it was a good idea. Most people, including me, are not entertained by it but respond allergically to such slide transitions, resulting in an instant distraction from what you're telling. You may also consider avoiding some fonts, which have the potential to cause political uproar. For some, seeing comicsans in your scientific presentation is like saying you like Obamacare in a GOPdebate.

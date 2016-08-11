@@ -1,0 +1,30 @@
+baseurl: "http://wobbly.earth"
+languageCode: "en-us"
+title: "Wobbly Earth"
+theme: "HugoMDL"
+MetaDataFormat: "yaml"
+ignoreFiles: "\\.swp$"
+taxonomies:
+    tag: "tags"
+    category: "categories"
+permalinks:
+    page: "/:title/"
+    about: "/:filename/"
+params:
+    author: "Roelof Rietbroek"
+    avatar: "/images/avatar.jpg"
+    postimage: "/images/speicherstadt.jpg"
+    background: "/images/background.jpg"
+    description: "Academic homepage of Roelof Rietbroek"
+    image: "/images/avatar.jpg" #for frontpage profile card
+    logo: "/static/images/WBlogo_64x64.png"
+    website: "http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek"
+    email: "roelof@geod.uni-bonn.de"
+    twitter: "https://twitter.com/r_rietje"
+    github: "https://github.com/strawpants/"
+    gscholar: "https://scholar.google.com/citations?user=PojYuOAAAAAJ&hl=en"
+#    linkedin: "https://linkedin.com/in/firstname_lastname/"
+#    facebook: "https://facebook.com/firstname_lastname/"
+    copyrightyear: "2016"
+    frontpageposts: 3 #number of post cards to display on frontpage
+    
