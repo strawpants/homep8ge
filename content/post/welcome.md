@@ -20,7 +20,7 @@ tags:
 - homepage
 - hugo
 - academics
-title: welcome
+title: The Wobbly Earth
 tweetshare: Do academics really need a homepage?
 ---
 
