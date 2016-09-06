@@ -7,9 +7,9 @@ author:
   name: First Last
   twitter: example_twittername
   website: http://example.com/
-cardbackground: '#222444'
-cardheaderimage: /images/default.jpg
-cardthumbimage: /images/default.jpg
+cardbackground: '#000000'
+cardheaderimage: /images/band-aid-backlogo.png
+cardthumbimage: /images/old_bandaid_logo.png
 categories:
 - project
 - research
@@ -18,7 +18,7 @@ description: Description of the sample project
 tags:
 - Bangladesh
 - Sea level
-title: Awesome Collaborative Project
+title: BanD-AID
 web: http://belmont-sealevel.org
 ---
 

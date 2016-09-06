@@ -22,6 +22,12 @@ body .hugo-blog {
 .hugo-blog p{
     font-size: 16px;
     font-family: 'Open Sans','Helvetica', sans-serif;
+   
+}
+
+.hugo-blog .hugo-content{
+margin-left:2em;
+margin-right:2em;    
 }
 
 .hugo-blog .mdl-button{

@@ -8,6 +8,7 @@ import os.path
 import shutil
 import re
 import codecs
+import datetime
 
 zoterodatdir='/home/roelof/wolk7/zoteroData/storage'
 root='/home/roelof/work2/homep8ge'
@@ -70,8 +71,12 @@ for item in items:
 		#fid.write(b'\t\t'+pdflink+b'\n</div>\n')	
 	
 	fid.write(b'\t</div>\n')
-          	
-  
+#add date tag 
+now=datetime.datetime.now()
+fid.write(b'<small> Last updated: '+now.strftime("%B %d, %Y").encode('utf-8')+b'</small>\n')
 fid.write(b'</div>\n')
+
+
+
 fid.close()	
 
