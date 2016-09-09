@@ -27,14 +27,11 @@
             {{partial "sharebuttons.html" .}}
         </div>
             
-        <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content">
-            {{ .Content }}
-        </div>
+        <div class="mdl-color-text--grey-700 hugo-content">
+                 {{ .Content }}
+         </div>
         
-        <div class="mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 
-            <a {{with .Params.author.website }}href="{{.}}"{{end}}>{{ .Params.author.name }}</a>
-            {{with .Params.author.description }}<p>{{.}}</p>{{end}}
-        </div>  
+          
     </div>
     {{ partial "prevnextbtns.html" . }} 
 </div>

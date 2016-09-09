@@ -5,8 +5,8 @@ author:
   github: https://github.com/
   image: /images/WBlogo_64x64.png
   name: Roelof Rietbroek
-  twitter: https://twitter.com/
-  website: http://wobbly.earth/about
+  twitter: http://twitter.com/r_rietje
+  website: /about
 cardbackground: '#263238'
 cardheaderimage: /images/default.jpg
 cardthumbimage: /images/default.jpg
@@ -15,21 +15,29 @@ categories:
 - post
 - opinion
 date: 2016-06-30T16:50:04+02:00
-description: first post with Hugo website engine
+description: A wobbly Earth
 tags:
 - homepage
 - hugo
 - academics
-title: The Wobbly Earth
+- opinion
+title: A wobbly Earth
 tweetshare: Do academics really need a homepage?
 ---
+ 
 
-On the more material side, you may consider structuring your presentation using narratives, making use of effective graphics and trying to eliminate those parts from your presentation which do not contribute to it. Just that someone at Microsoft thought it was a cool idea to offer transition effects like slides disintegrating in blocks and stars, doesn't mean it was a good idea. Most people, including me, are not entertained by it but respond allergically to such slide transitions, resulting in an instant distraction from what you're telling. You may also consider avoiding some fonts, which have the potential to cause political uproar. For some, seeing comicsans in your scientific presentation is like saying you like Obamacare in a GOPdebate.
+### Do I really need an academic homepage? 
+Considering the wealth of academic homepages and blogs around, I'm certaintly not the only one who asked himself that question. I've been wondering whether to make one myself for a quite a while now, and finally decided to give it a shot. You're currently looking at the result. 
 
-In a nutshell, the single piece of advice for making a good presentation is the old boyscout credo: "prepared". Once you prepared your presentation, you may want to check if it is effective and can be finished within the allocated time slot. Weathered speakers may know this from their experience, but even better is to rehearse your talk in front of group of friendly but critical peers. For a conference talk, the group would ideally consists of scientists from varying research fields, such that the audience better resembles reality. By rehearsing you (1) know whether your talk fits in the 12 minute limit, (2) can check if your main points came accross, and (3) see if your presentation material looks the way it is supposed to do.
+The best response I got when discussing this issue with friends and colleagues was probably in the line of "Good on you!: but don't you think a homepage is a tad archaic?". Well [my institutional homepage](http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek) sure has a pretty archaic look, and frustatingly I can't change that. Interestingly, that's also my prime reason to venture into this: "having the freedom to design and style your own public appearance, and being able to manage your own outreach communication efforts. 
 
-The EGU 2016 short course 54 Presentation feedback round, builds on the observation that doing a rehearsal is a very effective way of improving the quality of your talk, whilst building your confidence on the podium. Last year, we organized the short course for the first time, and the feedback encouraged us to organize this again. Bernd Uebbing, early career scientist and participant of last year's round commented: Very helpful general information on how to present scientific results in an interesting way combined with constructive individual feedback after my trial presentation; would recommend!
+#### While ( Outreach < Publications ){++Publications;}
+Unfortunately, in the current academic situation, outreach efforts are still undervalued compared to publishing papers, so keep publishing papers is the way to maintain the status quo. Most of the research grants I've seen put the weight (=resources) on researching and publishing in respectable journals, compared to outreach activities(if any are specified at all). That is not to say that people don't want to researchers to reach out to the general public. Recently, Sander Dekker, dutch secretary of the ministery of education,culture and research, plead that [researchers have the moral duty to communicate their findings to the general public](http://www.scienceguide.nl/201609/de-echte-waarde-van-wetenschap.aspx), but failed to address the question who is going to finance the (significant) workloads associated with these efforts. 
 
-The short course is set up as follows. After kicking off with an entertaining talk on presenting, registered participants will give their presentation after which there is time to receive feedback from the organizers and audience. In contrast to your actual conference talk, more time is scheduled for feedback and topics related to presentation skills will be given plenty of attention. Everybody is welcome to attend the short course, but we specifically invite scientists, notably early career scientists, to sign up for a try-out of their EGU talk (PICO or oral).
+I do have the feeling that there is a mentality shift going on though. 
 
-But even after attending our shortcourse, and being very well prepared, you're climbing that podium and are still nervous. But now, you got what it takes to deliver a conference highlight.
+
+### A wobbly Earth
+
+### How this website is built
+

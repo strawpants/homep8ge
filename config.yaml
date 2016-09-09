@@ -19,7 +19,7 @@ params:
     image: "/images/avatar.jpg" #for frontpage profile card
     logo: "/static/images/WBlogo_64x64.png"
     website: "http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek"
-    email: "roelof@geod.uni-bonn.de"
+    email: "roelof@wobbly.earth"
     twitter: "https://twitter.com/r_rietje"
     github: "https://github.com/strawpants/"
     gscholar: "https://scholar.google.com/citations?user=PojYuOAAAAAJ&hl=en"
