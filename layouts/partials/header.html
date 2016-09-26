@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="/css/material.min.css"/>
         <link rel="stylesheet" href="/css/styles.css"/>
         {{ if .IsPage }} {{ if ( eq .Type "post" ) }} <link rel="stylesheet" href="/css/prism.css" /> {{end}} {{end}}
+        {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
 <body style="background-image: url('{{ .Site.Params.background }}');">

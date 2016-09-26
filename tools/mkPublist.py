@@ -99,7 +99,7 @@ def print_bibitems(fid,zot,datadir,author,tag,name):
                     fid.write(b'\t\t\t<a  id='+ttid+b' class="mdl-list__item-secondary-action mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button" href="'+destpdf.encode('utf-8')+b'" aria-label="Download pdf" data-upgraded="MaterialButton,MaterialRipple"><i class="material-icons_2x icon ion-archive"></i><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>\n')
                     fid.write(b'\t\t\t</a>\n')
                     
-                    fid.write(b'\t\t\t<div class="mdl-tooltip mdl-tooltip" for="'+ttid+b'">Download pdf\n')
+                    fid.write(b'\t\t\t<div class="mdl-tooltip" for="'+ttid+b'">Download pdf\n')
                     fid.write(b'\t\t\t</div>\n')
                     
                     fid.write(b'\t\t</div>\n')

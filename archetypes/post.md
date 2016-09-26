@@ -2,7 +2,7 @@
 title: "First"
 description: "first post with Hugo website engine"
 date: "2015-08-18"
-
+layout: single
 categories:
     - "post"
 tags:
@@ -11,7 +11,7 @@ tags:
 cardthumbimage: "/images/default.jpg" #optional: default solid color if unset
 cardheaderimage: "/images/default.jpg" #optional: default solid color if unset
 cardbackground: "#263238" #optional: card background color; only shows when no image specified
-#cardtitlecolor: "#fafafa" #optional: can be changed to make text visible over card image
+cardtitlecolor: "#fafafa" #optional: can be changed to make text visible over card image
 tweetshare: "Do academics really need a homepage?"
 "author":
     name: "Roelof Rietbroek"
