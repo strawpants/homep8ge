@@ -12,6 +12,8 @@ cardheaderimage: /images/ScienceMan.png
 cardthumbimage: /images/ScienceMan.png
 #cardtitlecolor: '#40c4ff'
 cardtitlecolor: white
+images: 
+    - "/images/ScienceMan.png"
 categories:
 - post
 - opinion

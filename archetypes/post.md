@@ -8,6 +8,8 @@ categories:
 tags:
     - "meta"
     - "test"
+images: 
+    - "/images/default.jpg" #specify images which are given to FB and co to add while linking
 cardthumbimage: "/images/default.jpg" #optional: default solid color if unset
 cardheaderimage: "/images/default.jpg" #optional: default solid color if unset
 cardbackground: "#263238" #optional: card background color; only shows when no image specified
