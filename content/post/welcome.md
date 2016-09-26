@@ -13,7 +13,7 @@ cardthumbimage: /images/ScienceMan.png
 #cardtitlecolor: '#40c4ff'
 cardtitlecolor: white
 images: 
-    - "/images/scienceManLarge.png"
+    - "/images/ScienceMan_og.png"
 categories:
 - post
 - opinion
