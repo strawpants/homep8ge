@@ -18,7 +18,7 @@ categories:
 - post
 - opinion
 date: 2016-09-23
-description: 'Building an academic blog can be a lot of work, but it give you a science communication platform over which you have full control.'
+description: 'Building an academic blog can be a lot of work, but it gives you a science communication platform over which you have full control.'
 tags:
 - homepage
 - blog
