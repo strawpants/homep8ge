@@ -8,7 +8,10 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="My thoughts and rambles">
+        {{ if .Params.description }}
+            <meta name="description" content="{{.Params.description}}">
+        {{end}}
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ .Title }}</title>
         <!-- Add to homescreen for Chrome on Android -->
