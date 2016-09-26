@@ -13,12 +13,12 @@ cardthumbimage: /images/ScienceMan.png
 #cardtitlecolor: '#40c4ff'
 cardtitlecolor: white
 images: 
-    - "/images/ScienceMan.png"
+    - "/images/scienceManLarge.png"
 categories:
 - post
 - opinion
 date: 2016-09-23
-description: 'Your academic homepage: outreach booster or narcissistic outlet?'
+description: 'Building an academic blog can be a lot of work, but it give you a science communication platform over which you have full control.'
 tags:
 - homepage
 - blog
