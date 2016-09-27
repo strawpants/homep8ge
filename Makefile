@@ -15,4 +15,4 @@ pubs:
 	tools/mkPublist.py /home/roelof/wolk7/zoteroData/storage 3253202 Rietbroek 'Theses;RRthesis' 'Peer Reviewed Articles;RRpeer'  > layouts/partials/pubsbody.html
 
 clean:
-	cd public; rm -rf 404.html  about  categories  css  favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags publications
+	cd public; rm -rf 404.html  about  categories  css data favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags publications
