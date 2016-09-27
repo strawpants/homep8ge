@@ -1,36 +1,42 @@
 {{ if isset .Site.Params "email" }}
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="mailto:{{ .Site.Params.email }}?subject=Hi">
+<a id="ttmail" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="mailto:{{ .Site.Params.email }}?subject=enquiry through wobbly.earth">
     <i class="material-icons_lg icon ion-email"></i>
     <span class="visuallyhidden">Email</span>
 </a>
+<div class="mdl-tooltip mdl-tooltip--top" for="ttmail">Send email</div>
 {{ end }}
 {{ if isset .Site.Params "github" }}
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.github }}">
+<a id="ttgithub" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.github }}">
     <i class="material-icons_lg icon ion-social-github"></i>
     <span class="visuallyhidden">Github</span>
 </a>
+<div class="mdl-tooltip mdl-tooltip--top" for="ttgithub">Find on github </div>
 {{ end }}
 {{ if isset .Site.Params "twitter" }}
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.twitter }}">
+<a id="tttwitter" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.twitter }}">
     <i class="material-icons_lg icon ion-social-twitter "></i>
     <span class="visuallyhidden">Twitter</span>
 </a>
+<div class="mdl-tooltip mdl-tooltip--top" for="tttwitter">Find on twitter</div>
 {{ end }}
 {{ if isset .Site.Params "linkedin" }}
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.linkedin }}">
+<a id="ttlinked" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.linkedin }}">
     <i class="material-icons_lg icon ion-social-linkedin "></i>                        
     <span class="visuallyhidden">LinkedIn</span>
 </a>
+<div class="mdl-tooltip mdl-tooltip--top" for="ttlinked">Find on LinkedIn</div>
 {{ end }}
 {{ if isset .Site.Params "facebook" }}
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.facebook }}">
+    <a id="ttfb" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.facebook }}">
         <i class="material-icons_lg icon ion-social-facebook "></i>                        
         <span class="visuallyhidden">Facebook</span>
     </a>
+    <div class="mdl-tooltip mdl-tooltip--top" for="ttfb">Find on Gezichtenboek</div>
 {{ end }}
 {{ if isset .Site.Params "gscholar" }}
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.gscholar }}">
+    <a id="ttscholar"  class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" target="_blank" href="{{ .Site.Params.gscholar }}">
         <i class="material-icons_lg icon ion-university "></i>                        
         <span class="visuallyhidden">Google scholar</span>
     </a>
+    <div class="mdl-tooltip mdl-tooltip--top" for="ttscholar">See citations on Google Scholar</div>
 {{ end }}
