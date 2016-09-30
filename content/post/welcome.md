@@ -7,7 +7,6 @@ author:
   name: Roelof Rietbroek
   twitter: http://twitter.com/r_rietje
   website: /about
-cardbackground: '#263238'
 cardheaderimage: /images/ScienceMan.png
 cardthumbimage: /images/ScienceMan.png
 #cardtitlecolor: '#40c4ff'
@@ -16,17 +15,19 @@ images:
     - "/images/ScienceMan_og.png"
 categories:
 - post
-- opinion
 date: 2016-09-23
 description: 'Building an academic blog can be a lot of work, but it gives you a science communication platform over which you have full control.'
 tags:
-- homepage
-- blog
-- science communication
-- academics
-- opinion
+- "homepage"
+- "blog"
+- "science communication"
+- "academics"
+- "opinion"
 title: 'Your academic homepage: outreach booster or narcissistic outlet?'
 tweetshare: 'Your academic homepage: outreach booster or narcissistic outlet?'
+sitemap:
+    changefreq: "monthly"
+    priority: 0.6
 --- 
 
 

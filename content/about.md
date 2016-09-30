@@ -2,9 +2,7 @@
 cardheaderimage: /images/Roelof_heg.jpg
 categories:
 - bio
-- about
 date: 2016-09-06
-description: Roelof Rietbroek
 layout: single
 photo: /images/avatar.png
 tags:
@@ -12,10 +10,17 @@ tags:
 - Graduation
 - Teaching
 - Research
-title: About Me
+- The Hague
+- Curriculum Vitae
+- EGU
 type: about
-blurb: Geodetic Earth scientist
+blurb: "Roelof Rietbroek, Geodetic Earth scientist"
+description: "Research Profile of Roelof Rietbroek"
+title: "About"
 cardtitlecolor: white
+sitemap:
+    changefreq: "monthly"
+    priority: 0.6
 ---
 
 
@@ -34,21 +39,23 @@ It was only during the final stages of my study of Aerospace Engineering at Delf
 
 
 
-#### Education
+#### Professional Experience and Education
 
-{{< figure src="/images/DoktorHut.jpg" title="The decoration on the \"Doktor Hut\" pretty much covers where I come from and what I've being researching the last years" width="70%">}}
+{{< figure src="/images/DoktorHut.jpg" title="The decoration on the \"Doktor Hut\" pretty much covers where I come from and what I've being researching the last years" width="90%">}}
 
-Since 2000, I've followed the following studies: 
-
-* PhD (Dr.-ing.), in Geodesy, Institute of Geodesy and Geinformation, university of Bonn, Germany, 2007-2014, The overall theme of my [thesis](/data/rietbroekPhdThesis2014.pdf) covered the combination of several geodetic techniques at once to study for example sea level and Earth deformation effects.
-* Master of Sciences, Aerospace engineering, Delft University of Technology, The Netherlands, 2005-2007. In the [thesis](/data/ae_rietbroek_2007.pdf) I compared data from in situ deep ocean bottom pressure recorders with time series from GRACE gravity fields.
-* Bachelor of Sciences, Aerospace engineering, Delft University of Technology, The Netherlands, 2000-2005
+* 2014-present, Post-doctoral Researcher at Bonn University, Institute of Geodesy and Geoinformation (chair of Astronomical, Physical and Mathematical Geodesy)
+* 2007-2014, PhD (Dr.-ing.), in Geodesy, Institute of Geodesy and Geinformation, university of Bonn, The overall theme of my [thesis](/data/rietbroekPhdThesis2014.pdf) covered the combination of several geodetic techniques at once to study for example sea level and Earth deformation effects.
+* 2009-2014, Researcher at Bonn University, Institute of Geodesy and Geoinformation (chair of Astronomical, Physical and Mathematical Geodesy)
+* 2007,2009, Researcher at Section 1.3 Gravity Field and Gravimetry at Helmholtz Centre Deutsches GeoForschungsZentrum (GFZ)
+* 2005-2007, Master of Sciences, Aerospace engineering, Delft University of Technology, The Netherlands. In the [thesis](/data/ae_rietbroek_2007.pdf) I compared data from in situ deep ocean bottom pressure recorders with time series from GRACE gravity fields.
+* Feb-May 2006, Study of Ocean Bottom Pressure Records in the Indian Ocean (Internship) at Ifremer, Brest, France 
+* 2000-2005, Bachelor of Sciences, Aerospace engineering, Delft University of Technology, The Netherlands
 
 #### <a name="EGU"></a> European Geosciences Union Activities
 The [Geodesy division of the European Geoscience union](http://www.egu.eu/g/home/) is also something I'm involved in. Since 2014, [I'm fullfilling the role as the early career scientists (ECS) representative for the geodesy division](http://blogs.egu.eu/geolog/2016/02/10/geotalk-roelof-rietbroek-early-career-scientist-representative/), and I occasionally post on its [division blog](http://blogs.egu.eu/divisions/g/). From 2017, I'll follow up [Lena Noack](http://www.egu.eu/ecs/representatives/) as the Union Level ECS Representative of the EGU, so this means we're looking for an ECS to represent the geodesy division from 2017 and onward. Interested scientists are invited to contact me by [twitter](https://twitter.com/r_rietje) or [email](mailto:ecs-g@egu.eu?subject=I want to be the next Geodesy ECS-rep!).
 
 #### <a name="teaching"></a> Teaching
-{{< figure src="/images/phdcomicsStudent.gif" width="80%" attr="Source: phdcomics.com" attrlink="http://phdcomics.com/comics/archive.php?comicid=1873">}}
+{{< figure src="/images/phdcomicsStudent.gif" width="90%" attr="Source: phdcomics.com" attrlink="http://phdcomics.com/comics/archive.php?comicid=1873">}}
 There are several courses I teach/taught and practicals I supervise. Most of them are in German, which is not my native tongue and occasionally causes some confusion but most of all amusement. To return the favour, I also try to get our German students out of their comfort zones by lecturing in English now and then.
 
 * [Globale Geodynamik (Bsc)](https://www.gug.uni-bonn.de/studierende/modulbeschreibungen/20161/291_modulbeschreibung_b24_ggd_20161_160324.pdf)

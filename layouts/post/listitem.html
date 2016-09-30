@@ -8,6 +8,14 @@
             <span>{{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
     </div>
-    <!-- post title w/ link -->
+    <!-- post title w/ link and tags -->
+    <div>
     <a href="{{ .RelPermalink }}"><h5 >{{ title .Title }}</h5></a>
+    <!--add categories and tags -->
+    {{with .Params.tags}}
+    <small>Tags: {{delimit (apply . "partial" "linktag" "." ) ", " }}</small>
+    {{end}}
+    
+    </div>
+    
 </div>

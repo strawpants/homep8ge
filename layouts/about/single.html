@@ -5,7 +5,7 @@
 
     <div class="mdl-card__media" style="{{with .Params.cardheaderimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
         <div class="about-text">
-        <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Description }}</h3>
+        <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</h3>
         <p {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{.Params.blurb }}</p>
         </div>
     </div>

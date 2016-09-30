@@ -8,7 +8,6 @@ author:
   name: Roelof Rietbroek
   twitter: https://twitter.com/
   website: http://wobbly.earth/about
-cardbackground: '#263238'
 cardheaderimage: /images/default.jpg
 cardthumbimage: /images/default.jpg
 cardtitlecolor: white

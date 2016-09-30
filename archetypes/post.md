@@ -7,12 +7,10 @@ categories:
     - "post"
 tags:
     - "meta"
-    - "test"
 images: 
     - "/images/default.jpg" #specify images which are given to FB and co to add while linking
 cardthumbimage: "/images/default.jpg" #optional: default solid color if unset
-cardheaderimage: "/images/default.jpg" #optional: default solid color if unset
-cardbackground: "#263238" #optional: card background color; only shows when no image specified
+cardheaderimage: "/images/default.jpg" #optional: default solid color if unset set with: hcardbackground: "#263238"
 cardtitlecolor: "#fafafa" #optional: can be changed to make text visible over card image
 tweetshare: "Do academics really need a homepage?"
 "author":
@@ -23,7 +21,9 @@ tweetshare: "Do academics really need a homepage?"
     twitter: "https://twitter.com/"
     github: "https://github.com/"
     image: "/images/WBlogo_64x64.png"
-
+sitemap:
+    changefreq: "monthly"
+    priority: 0.6
 ---
 
 This is my post.

@@ -8,7 +8,6 @@ author:
   name: Roelof Rietbroek
   twitter: https://twitter.com/
   website: http://wobbly.earth/about
-cardbackground: '#263238'
 cardheaderimage: /images/pudding.jpg
 cardthumbimage: /images/pudding.jpg
 cardtitlecolor: white
@@ -21,6 +20,9 @@ tags:
 - test
 title: Wobbly Earth
 tweetshare: The Earth wobbles like a jellypudding
+sitemap:
+    changefreq: "monthly"
+    priority: 0.6
 ---
 
 ### a Jellypudding orbits the Sun

@@ -1,11 +1,16 @@
 baseurl: "http://wobbly.earth"
 languageCode: "en-us"
 title: "Wobbly Earth"
+description: "Academic homepage of Roelof Rietbroek"
 theme: "HugoMDL"
 MetaDataFormat: "yaml"
 ignoreFiles: "\\.swp$"
 pygmentsstyle: "friendly"
 googleAnalytics: "UA-84784436-1"
+sitemap:
+    changefreq: "monthly"
+    priority: 0.5
+    filename: "sitemap.xml"
 taxonomies:
     tag: "tags"
     category: "categories"

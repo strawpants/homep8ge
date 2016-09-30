@@ -6,12 +6,13 @@
         <div class="mdl-card__media mdl-color-text--grey-50" style="{{with .Params.cardheaderimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
             <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</h3>
         </div>
-          
+                
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
             {{with .Params.author.image}}<div class="minilogo" style="background-image: url('{{.}}');"></div>{{end}}
             <div>
                 <strong>{{ .Params.author.name }}</strong>
                 <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+                {{with .Params.tags}}<small>Tags: {{delimit (apply . "partial" "linktag" "." ) ", " }}</small>{{end}}
             </div>
             
             <div class="section-spacer"></div>

@@ -81,8 +81,12 @@ text-decoration:underline;
   text-decoration: underline;
 }
 
-.hugo-blog .mdl-card .mdl-card__list-item a {
+.hugo-blog .mdl-card .mdl-card__supporting-text a {
   text-decoration: none;
+}
+
+.hugo-blog .mdl-card .mdl-card__supporting-text a:hover {
+  text-decoration: underline;
 }
 
 .hugo-blog .mdl-card .mdl-card__list-item a:hover {
