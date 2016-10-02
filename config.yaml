@@ -21,7 +21,7 @@ params:
     author: "Roelof Rietbroek"
     avatar: "/images/avatar.jpg"
     postimage: "/images/schuifmaat.jpg"
-    ogimage: "/images/Screenshot_home_og.png" #default og image to use when no other is available
+    ogimage: "/images/Screenshot_home_og.png"
     background: "/images/background.jpg"
     description: "Academic homepage of Roelof Rietbroek"
     image: "/images/avatar.jpg" #for frontpage profile card

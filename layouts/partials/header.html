@@ -28,7 +28,7 @@
         <meta name="msapplication-TileColor" content="#3372DF">
         {{ template "_internal/opengraph.html" . }}
         {{with .Site.Params.ogimage}} 
-            <meta property="og:image" content="{{ . }}" />
+            <meta property="og:image" content="{{ absURL . }}" />
         {{end}}
         {{ template "_internal/twitter_cards.html" . }}
         
