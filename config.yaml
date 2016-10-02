@@ -20,11 +20,12 @@ permalinks:
 params:
     author: "Roelof Rietbroek"
     avatar: "/images/avatar.jpg"
-    postimage: "/images/planken.jpg"
+    postimage: "/images/schuifmaat.jpg"
+    ogimage: "/images/Screenshot_home_og.png" #default og image to use when no other is available
     background: "/images/background.jpg"
     description: "Academic homepage of Roelof Rietbroek"
     image: "/images/avatar.jpg" #for frontpage profile card
-    logo: "/static/images/WBlogo_64x64.png"
+    logo: "/images/WBlogo_64x64.png"
     website: "http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek"
     email: "roelof@wobbly.earth"
     twitter: "https://twitter.com/r_rietje"

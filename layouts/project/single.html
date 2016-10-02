@@ -5,17 +5,10 @@
         <div class="mdl-card__media mdl-color-text--grey-50" style="{{with .Params.cardheaderimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
             <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</h3>
         </div>
-        
-        <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-            {{with .Params.author.image}}<div class="minilogo" style="background-image: url('{{.}}');"></div>{{end}}
-            <div>
-                <strong>{{ .Params.author.name }}</strong>
-                <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-            </div>
-            <div class="section-spacer"></div>
-            <div><span>
+        <div class="mdl-card__list-item mdl-color-text--grey-700">
+            {{partial "Authoritem" .}}
+            <div class="meta">
                 {{with .Params.repo}}
-                
                     <a id="repolink" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button" href="{{.}}"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
                     <span for="repolink" class="mdl-tooltip">Code Repository</span>
                 {{end}}
@@ -23,10 +16,10 @@
                     <a id="sitelink" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button" href="{{.}}"><i class="material-icons icon ion-link"></i><span class="visuallyhidden">Website</span></a>
                     <span for="sitelink" class="mdl-tooltip">Website Link</span>
                 {{end}}
-            </span></div>
-            {{partial "sharebuttons.html" .}}
-        </div>
-            
+                  
+            {{partial "sharebuttons" .}}
+            </div>
+        </div>            
         <div class="mdl-color-text--grey-700 hugo-content">
                  {{ .Content }}
          </div>

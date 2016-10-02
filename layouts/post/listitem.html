@@ -1,21 +1,9 @@
 <!-- Styling for a single list item -->
-<div class="mdl-card__list-item mdl-color-text--grey-600">
-    <!-- author block -->
-    <div class="meta">
-        {{with .Params.author.image}}<div class="minilogo" style="background-image: url('{{.}}');"></div>{{end}}
-        <div>
-            <strong><a href="{{ .Params.author.website }}">{{ .Params.author.name }}</a></strong>
-            <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-        </div>
-    </div>
-    <!-- post title w/ link and tags -->
-    <div>
-    <a href="{{ .RelPermalink }}"><h5 >{{ title .Title }}</h5></a>
-    <!--add categories and tags -->
-    {{with .Params.tags}}
-    <small>Tags: {{delimit (apply . "partial" "linktag" "." ) ", " }}</small>
-    {{end}}
-    
-    </div>
-    
+<div class="mdl-card__list-item mdl-color-text--grey-700">
+<div class="mdl-list-primary-content">
+            {{partial "Authoritem" .}}
+</div>
+<div class="mdl-list-secondary-content">
+ <a href="{{ .RelPermalink }}"><h5 >{{ title .Title }}</h5></a>
+</div>
 </div>

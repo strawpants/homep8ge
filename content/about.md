@@ -5,6 +5,8 @@ categories:
 date: 2016-09-06
 layout: single
 photo: /images/avatar.png
+categories:
+    - bio
 tags:
 - Space Geodesy
 - Graduation
@@ -16,7 +18,7 @@ tags:
 type: about
 blurb: "Roelof Rietbroek, Geodetic Earth scientist"
 description: "Research Profile of Roelof Rietbroek"
-title: "About"
+title: "Research Profile"
 cardtitlecolor: white
 sitemap:
     changefreq: "monthly"

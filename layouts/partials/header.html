@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     {{ .Hugo.Generator }}
         <meta charset="utf-8">
@@ -28,7 +27,11 @@
         <meta name="msapplication-TileImage" content="/images/WBlogo_144x144.png">
         <meta name="msapplication-TileColor" content="#3372DF">
         {{ template "_internal/opengraph.html" . }}
+        {{with .Site.Params.ogimage}} 
+            <meta property="og:image" content="{{ . }}" />
+        {{end}}
         {{ template "_internal/twitter_cards.html" . }}
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
         <link rel="stylesheet" href="/css/ionicons.min.css"/>

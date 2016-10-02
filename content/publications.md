@@ -5,6 +5,7 @@ layout: single
 title: Publications
 description: "Scientific Publications of Roelof Rietbroek"
 type: publications
+date: 2016-10-02
 images:
     - "/images/oldjournals.jpg"
 categories:
