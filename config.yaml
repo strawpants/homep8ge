@@ -14,6 +14,7 @@ sitemap:
 taxonomies:
     tag: "tags"
     category: "categories"
+    level: "levels"
 permalinks:
     page: "/:title/"
     about: "/:filename/"

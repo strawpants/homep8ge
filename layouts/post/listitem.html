@@ -1,9 +1,4 @@
 <!-- Styling for a single list item -->
 <div class="mdl-card__list-item mdl-color-text--grey-700">
-<div class="mdl-list-primary-content">
-            {{partial "Authoritem" .}}
-</div>
-<div class="mdl-list-secondary-content">
- <a href="{{ .RelPermalink }}"><h5 >{{ title .Title }}</h5></a>
-</div>
+{{partial "Authoritem_wtitle" .}}
 </div>

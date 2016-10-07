@@ -27,6 +27,7 @@
         <meta name="msapplication-TileImage" content="/images/WBlogo_144x144.png">
         <meta name="msapplication-TileColor" content="#3372DF">
         {{ template "_internal/opengraph.html" . }}
+        <!-- add backup image for  opengraph sharing -->
         {{with .Site.Params.ogimage}} 
             <meta property="og:image" content="{{ absURL . }}" />
         {{end}}

@@ -9,7 +9,6 @@ author:
   website: /about
 cardheaderimage: /images/ScienceMan.png
 cardthumbimage: /images/ScienceMan.png
-#cardtitlecolor: '#40c4ff'
 cardtitlecolor: white
 images: 
     - "/images/ScienceMan_og.png"
@@ -23,6 +22,8 @@ tags:
 - "science communication"
 - "academics"
 - "opinion"
+levels:
+    - "Undergrads"
 title: 'Your academic homepage: outreach booster or narcissistic outlet?'
 tweetshare: 'Your academic homepage: outreach booster or narcissistic outlet?'
 sitemap:
