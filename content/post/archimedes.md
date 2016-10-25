@@ -26,18 +26,23 @@ sitemap:
   priority: 0.6
 tags:
 - Archimedes
+- "floating ice"
+- Antarctica
+- "Larsen C"
 - "Sea level"
-- Arctic
 - Salinity
 - Temperature
-- "Equation of state"
+- Density
+- "code example"
 title: "Guess what: Sea level does rise when you melt floating ice"
 tweetshare: "Guess what: Sea level does rise when you melt floating ice"
 ---
 
+You would suspect that melting a chunk of floating ice would not cause a sea level change, but dissolving a chunk of the Larsen C ice shelf actually changes *regional* sea level by up to a meter. <!--more-->
+
 #### "Remember Arquimedes before being silly"
 This was the subject of an email I received last week: 
-<!--more-->
+
 >Dear Roelof, 
 
 >The melting of the Artic ice sheets contributes ZERO to the sea level rise, simply because they are afloat, its basic hydrostatic!!!
@@ -91,6 +96,8 @@ Reversely, when floating ice melts, the opposite effect, a freshening of the wat
 To get an impression of how much this could be let's do a back-on-the-envelope computation. For some time now, scientist have looking at a [a crack which has been growing in the Larsen C ice shelf](http://www.jpl.nasa.gov/spaceimages/details.php?id=PIA20894). The part which could potentially break off covers about 6000 km^2, which is about 1/7th of the Netherlands (e.g. [the area of North and South Holland together](http://www.volkskrant.nl/wetenschap/gigantische-ijsvlakte-antarctica-staat-op-breken~a3851188/)). 
 
 {{< figure src="/images/larsenCchunk.png" title="A crack growing in the Larsen C ice sheet may lead to a significant piece breaking off" attr="Source: Project MIDAS" attrlink="http://www.projectmidas.org/blog/a-growing-rift-in-larsen-c">}}
+
+{{< figure src="/images/LarsenCSealevel.png" title="Local Sea level change when a 6000 sqkm floating chunk of the Larsen C ice shelf would be melted in a pool of sea water which is about 33 times the mass of the ice shelf itself" >}}
 
 Geometry and parameters (educated guess) | Larsen C chunk 
 ---------------:|----
