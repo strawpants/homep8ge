@@ -10,7 +10,13 @@
             
             {{partial "Authoritem" .}}
             
+            
+            
             <div>
+            {{with .Params.repo}}
+                   <a id="repolink" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button" href="{{.}}"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
+                  <span for="repolink" class="mdl-tooltip">Related Code</span>
+            {{end}}
             {{partial "sharebuttons" .}}
             </div>
     </div>
