@@ -19,6 +19,7 @@ permalinks:
     page: "/:title/"
     about: "/:filename/"
 params:
+    title: "Wobbly Earth"
     author: "Roelof Rietbroek"
     avatar: "/images/avatar.jpg"
     postimage: "/images/schuifmaat.jpg"

@@ -24,7 +24,7 @@ tags:
     - "surface loading"
     - "jelly"
 levels:
-    - "Undergrads"
+    - "somewhat technical"
 title: "A Wobbly Earth"
 tweetshare:  "A wobbly Earth"
 sitemap:

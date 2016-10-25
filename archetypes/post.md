@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "First"
 description: "first post with Hugo website engine"
 date: "2015-08-18"
@@ -7,12 +8,14 @@ categories:
     - "post"
 tags:
     - "meta"
+levels:
+    - "technical"
 images: 
     - "/images/default.jpg" #specify images which are given to FB and co to add while linking
 cardthumbimage: "/images/default.jpg" #optional: default solid color if unset
 cardheaderimage: "/images/default.jpg" #optional: default solid color if unset set with: hcardbackground: "#263238"
 cardtitlecolor: "#fafafa" #optional: can be changed to make text visible over card image
-tweetshare: "Do academics really need a homepage?"
+tweetshare: "A new post on wobbly.earth"
 "author":
     name: "Roelof Rietbroek"
     description: "Researches geodesy at the University of Bonn"

@@ -23,7 +23,7 @@ tags:
 - "academics"
 - "opinion"
 levels:
-    - "Undergrads"
+    - "non-technical"
 title: 'Your academic homepage: outreach booster or narcissistic outlet?'
 tweetshare: 'Your academic homepage: outreach booster or narcissistic outlet?'
 sitemap:

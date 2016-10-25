@@ -21,6 +21,9 @@ tags:
 - hugo
 - github
 - latex
+- golang
+levels:
+    - "Nerds"
 title: Fancy latex?, you will probably like Hugo too
 tweetshare: Fancy latex?, you'll probably like Hugo too
 ---
