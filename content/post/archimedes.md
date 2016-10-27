@@ -84,7 +84,7 @@ To get an idea of all the factors at play here, one has to distinguish between i
 
 >PS. In the future, please refrain from using patronizing language such as "Remember Arquimedes before being silly", it does not impress me and it degrades an open discussion.
 
-In retropect, I apologize for the final sneer, a little patronizing by itself, but considering how the correspondence started of, it could have been worse.
+In retrospect, I apologize for the final sneer, a little patronizing by itself, but considering how the correspondence started of, it could have been worse.
 
 In this post, I won't go into detail on these grounded ice sheets, but these are indeed significant contributors to global sea level rise. It is the floating ice, which either has been calved of a glacier (i.e. ice bergs),  or [sea ice which may form at the ocean's surface under wintery conditions](https://www.youtube.com/watch?v=lAupJzH31tc), which will be in focus here.
 
