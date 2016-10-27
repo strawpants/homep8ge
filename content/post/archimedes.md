@@ -8,7 +8,7 @@ author:
   twitter: https://twitter.com/
   website: http://wobbly.earth/about
 cardheaderimage: /images/iceberg.jpg
-cardimageattr: "Image from imaggeo.egu.eu by Steffen Seitz"
+cardimageattr: "CC Image from imaggeo.egu.eu by Steffen Seitz"
 cardthumbimage: /images/iceberg.jpg
 cardtitlecolor: '#fafafa'
 repo: "http://github.com/strawpants/IceshelfMeltDemo"

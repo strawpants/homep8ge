@@ -38,8 +38,12 @@ Considering the abundance of academic homepages and blogs around, I'm certainly 
 The best response I got when discussing the starting of blog with friends was probably in the line of "Good on you!: but don't you think a homepage is a tad archaic?". Well [my institutional homepage](http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek) sure has a pretty archaic look, and, frustatingly, I can't change that. Interestingly, that's also my prime reason to venture into this: "having the freedom to design and style your own public appearance, and being able to better manage your own outreach efforts. Of course one could try to reach out using a facebook profile, but frankly speaking, I don't want facebook to take control over my homepage, and bombard you with irrelevant information (i.e. adds), although I'll certainly use it to share links to reach a wider audience.
 
 {{< highlight cpp >}}
-while ( Outreach < Publications ){++Publications;}
+while ( Outreach < Publications )
+{
+    ++Publications;
+}
 {{< /highlight >}} 
+
 
 Unfortunately, in the current academic situation, outreach efforts are still underappreciated compared to publishing papers, so the incentive clearly lies at publishing more papers instead of building a blog. Most of the research grants I've seen put the weight (=resources) on researching and publishing in respectable journals, compared to outreach activities (if specified at all).
 

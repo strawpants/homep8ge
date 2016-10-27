@@ -4,7 +4,8 @@ title: "Wobbly Earth"
 description: "Academic homepage of Roelof Rietbroek"
 theme: "HugoMDL"
 MetaDataFormat: "yaml"
-ignoreFiles: "\\.swp$"
+ignoreFiles:
+    - "\\.swp$"
 pygmentsstyle: "friendly"
 googleAnalytics: "UA-84784436-1"
 sitemap:
