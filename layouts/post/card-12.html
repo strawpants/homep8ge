@@ -3,7 +3,9 @@
 
     <!-- card title -->
     <div class="mdl-card__media mdl-color-text--grey-50" style="{{with .Params.cardthumbimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
+    <div class="hugo-textoverimage">
         <h3><a href="{{ .RelPermalink }}" {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</a></h3>
+    </div>
     </div>
 
     <!-- Snippet of post -->
