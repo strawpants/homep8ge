@@ -14,7 +14,6 @@ categories:
 - post
 date: 2017-02-15T20:51:17+11:00
 description: Few scientists encrypt their email with GPG, but maybe they should for the sake of science
-draft: false
 images:
 - /images/scienceTrump_og.jpg
 layout: single
@@ -91,7 +90,7 @@ There is a good email app called K-9 Mail which supports PGP encrypted messages 
 OK, I know  lot of scientists like to work on Apple products, so I did some searching for you. It turns out that you [can install a Mac port of GPG called GPGtools](https://gpgtools.org). This is supposed to integrate with Apples mail client 'Mail'. Remarkably, GPGtools actually had to reverse engineer the Apple Mail software, as Apple does not provide official ways to write plugins for it. I leave it up to the reader what to think of this....  
 
 ##### Using iOSMail with iPGMail
-If you happen to own an apple phone too, you may want to try out [iPGMail](https://ipgmail.com), which is supposed to integrate with iOSMail
+If you happen to own an apple phone too, you may want to try out [iPGMail](https://ipgmail.com), which is supposed to integrate with iOSMail.
 
 
 #### GPG as a digital vaccination program

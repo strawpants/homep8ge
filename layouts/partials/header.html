@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         {{ if .Params.description }}
             <meta name="description" content="{{.Params.description}}">
-        {{else}}
-                <meta name="description" content="{{.Title}}">
+	{{else}}
+                <meta name="description" content="{{.Site.Params.description}}">
         {{end}}
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
