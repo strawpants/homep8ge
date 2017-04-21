@@ -59,7 +59,7 @@ Having Archimedes in mind, one is inclined to reason that, when floating ice mel
 
 *Any object, wholly or partially immersed in a fluid, is buoyed up by a force equal to the weight of the fluid displaced by the object* 
 
-We will see that, in the case of melting ice in sea water, it certainly is not a correct to assume a constant density throughout the melting process.
+We will see that, in the case of melting ice in sea water, it certainly is not correct to assume a constant density throughout the melting process.
 
 #### Grounded versus Floating Ice
 {{< figure src="/images/Grounding-line.png" title="A large part of the world's ice sheets are resting on the bedrock, compared to floating ice which either comes from the calving of glaciers or is formed at the surface during cold winter times." attr="Source: antarcticglaciers.org" attrlink="http://www.antarcticglaciers.org/glaciers-and-climate/ice-ocean-interactions/grounding-lines/">}}
@@ -91,6 +91,8 @@ In this post, I won't go into detail on these grounded ice sheets, but these are
 
 #### Melting a piece of the Larsen C ice shelf
 For some time now, scientist have been looking at [a growing crack in the Larsen C ice shelf](http://www.projectmidas.org/blog/a-growing-rift-in-larsen-c/). The part which could potentially break off covers about 6000 km^2, which is about 1/7th of the Netherlands (e.g. [the area of North and South Holland together](http://www.volkskrant.nl/wetenschap/gigantische-ijsvlakte-antarctica-staat-op-breken~a3851188/)). 
+
+*Update 9 Jan 2017*: Recently, [the crack of the Larsen C has been growing quickly](https://www.washingtonpost.com/news/energy-environment/wp/2017/01/06/the-crack-in-this-antarctic-ice-shelf-just-grew-by-11-miles-a-break-could-be-imminent/?utm_term=.ec404d1f60f4), and a break up is more likely in the near future.
 
 {{< figure src="/images/larsenCchunk.png" title="A crack growing in the Larsen C ice sheet may lead to a significant piece breaking off" attr="Source: Project MIDAS" attrlink="http://www.projectmidas.org/blog/a-growing-rift-in-larsen-c">}}
 

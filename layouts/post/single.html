@@ -4,7 +4,9 @@
     <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
        
         <div class="mdl-card__media mdl-color-text--grey-50" style="{{with .Params.cardheaderimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
+        <div class="hugo-textoverimage">
             <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</h3>
+        </div>
             {{ with .Params.cardimageattr }}
             <i id="attrib" class="material-icons md-light icon ion-image"></i>
                   <span for="attrib" class="mdl-tooltip">{{.}}</span>
