@@ -4,7 +4,7 @@ all:build
 build:
 	hugo -t HugoMDL
 	
-publish:
+publish: build
 	@echo 'Publishing website to http://strawpants.github.io'
 	git subtree push --prefix=public publish master
 show:
