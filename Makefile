@@ -12,7 +12,7 @@ show:
 	hugo server -D --baseURL public/
 #make an automated publication list
 pubs:
-	tools/mkPublist.py /home/roelof/wolk7/zoteroData/storage 3253202 Rietbroek 'Theses;RRthesis' 'Peer Reviewed Articles;RRpeer'  > layouts/partials/pubsbody.html
+	tools/mkPublist.py /home/roelof/hugedata/zoteroData/storage 3253202 Rietbroek 'Theses;RRthesis' 'Peer Reviewed Articles;RRpeer'  > layouts/partials/pubsbody.html
 
 clean:
 	cd public; rm -rf 404.html  about  categories  css data favicon.png  fonts  images  index.html  index.xml  js  post  project  sitemap.xml  tags publications
