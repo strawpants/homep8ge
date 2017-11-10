@@ -12,7 +12,7 @@
 
 grav='Center'
 task="crop"
-
+imagesz=764x400
  help_ogizeImage()
  {
    echo "OpenGraph (ize) image: Resize (crop or extent) an image such that it has an optimal"
@@ -22,6 +22,7 @@ task="crop"
    echo "-g GRAVITYPOS: crop/extent relative to the gravity center can be North, South, West, East, or Center(default)"
    echo "-x: extent image to match the aspect ratio by adding transparent space"
    echo "-c: crop the image to match the aspect ratio (default)"
+   echo "-s WIDTHxHEIGHT: use a different size for the resulting image (default is 764x400)"
    exit 1
  }
  #
@@ -36,7 +37,8 @@ while getopts cxg: opt
 do	case "$opt" in
 	g) grav=$OPTARG;;
 	x) task="extent";;
-        c) task="crop";;	
+    c) task="crop";;
+    s) imagesz=$OPTARG;;    
 	[?]) help_ogizeImage;;
 	esac
 done
@@ -50,6 +52,10 @@ file1=$1
 
 fin=$1
 fout=`basename $fin | sed -r -e 's/\.\w+$/_og\0/'`
+
+#determine desired output ratio
+ratio=`echo $imagesz | awk -Fx '{print $1/$2}'`
+
 
 if  [ "$task" == "extent" ]; then
 
@@ -73,6 +79,6 @@ extent=`identify $fin | awk '{\
 
 fi
 
-convert $fin -background transparent -gravity ${grav} -extent $extent -resize 764x400 $fout
+convert $fin -background transparent -gravity ${grav} -extent $extent -resize $imagesz $fout
 
 
