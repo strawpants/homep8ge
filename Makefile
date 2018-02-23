@@ -9,7 +9,7 @@ publish: build
 	git subtree push --prefix=public publish master
 show:
 	@echo 'running test server, visit http://localhost:1313 to preview the page'
-	hugo server -D --baseURL public/
+	hugo server -F -D --baseURL public/
 #make an automated publication list
 pubs:
 	tools/mkPublist.py /home/roelof/hugedata/zoteroData/storage 3253202 Rietbroek 'Theses;RRthesis' 'Peer Reviewed Articles;RRpeer'  > layouts/partials/pubsbody.html
