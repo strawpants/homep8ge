@@ -2,7 +2,7 @@
 draft: true
 title: Mind the Gap, and use SWARM
 description: Using SWARM gravity data to fill the GRACE data gap
-date: 2018-02-12
+date: 2018-03-01
 layout: single
 categories:
     - post
