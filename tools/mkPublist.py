@@ -71,8 +71,13 @@ def print_bibitems(fid,zot,datadir,author,tag,name):
             htmlentry=re.sub(author.encode('utf-8'),b'<b>'+author.encode('utf-8')+b'</b>',htmlentry)
            
             #replace doi by a highlighted link:
-            htmlentry=re.sub(b'doi:(.+)\.<\/div>',b'<a href="http://dx.doi.org/\\1">doi:\\1.</a></div>',htmlentry)
-            
+            #htmlentry=re.sub(b'doi:(.+)\.<\/div>',b'<a href="http://dx.doi.org/\\1">doi:\\1.</a></div>',htmlentry)
+            htmlentry=re.sub(b'https:\/\/doi.org\/(.+)<\/div>',b'<a href="https://doi.org/\\1">doi:\\1.</a></div>',htmlentry)
+           
+            #also turn "Retrieved from entries in highlighted links"
+            htmlentry=re.sub(b'Retrieved from (.+)<\/div>',b'<a href="\\1">Repository link.</a></div>',htmlentry)
+
+
             htmlentry=re.sub(b'div',b'p',htmlentry)
             #fid.write(b'\t<div class="hugo-ref-item">\n')
             fid.write(b'\t<div class="mdl-list__item mdl-color-text--grey-700">\n')
@@ -103,8 +108,6 @@ def print_bibitems(fid,zot,datadir,author,tag,name):
                     fid.write(b'\t\t\t</div>\n')
                     
                     fid.write(b'\t\t</div>\n')
-                    #pdflink=b'<div><a id='+ttid+b' class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect icon-button" href="'+destpdf.encode('utf-8')+b'" aria-label="Download pdf" data-upgraded=",MaterialButton,MaterialRipple"><i 		class="material-icons_2x icon ion-archive"></i><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a><div class="mdl-tooltip mdl-tooltip" for="'+ttid+b'">Download pdf</div></div>\n'
-                    #fid.write(b'\t\t'+pdflink+b'\n</div>\n')	
             
             fid.write(b'\t</div>\n')
     fid.write(b'</div>\n')    
