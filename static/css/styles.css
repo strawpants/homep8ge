@@ -557,6 +557,7 @@ border:none;
 
 .hugo-blog .mdl-navigation__link{
 font-size:1.2em;
+color:rgba(0, 0, 0, 0.54);
 }
 
 .hugo-blog .project-card {

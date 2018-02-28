@@ -36,6 +36,6 @@ params:
     gscholar: "https://scholar.google.com/citations?user=PojYuOAAAAAJ&hl=en"
 #    linkedin: "https://linkedin.com/in/firstname_lastname/"
     facebook: "https://facebook.com/rrietbroek/"
-    copyrightyear: "2017"
+    copyrightyear: "2018"
     frontpageposts: 3 #number of post cards to display on frontpage
     
