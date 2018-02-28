@@ -39,6 +39,8 @@ Christina is a researcher within the DFG funded project ["Consistent Ocean Mass 
 #### To set the record straight: GRACE beats Swarm hands down in terms of accuracy of the gravity field 
 To put this all in perspective first. GRACE relied on a microwave ranging instrument to track the distance between the GRACE-1 and GRACE-2 satellite, which came with an extremely sensitive accuracy of about 5 microns/second. To give you an idea of the sensitivity, **that's about the velocity decrease you experience when you hit a cricket whilst driving in your car on the highway**. 
 
+{{< figure src="/images/LoLo_andHiLo.svg" title="The GRACE measurement system has, in addition to the Swarm constellation, a sensitive K-band inter-satellite link.">}}
+
 The [Swarm satellites](http://www.esa.int/Our_Activities/Observing_the_Earth/Swarm/Introducing_Swarm) are not equipped with such ranging instruments, but they do track GPS satellites using geodetic grade GPS receivers. This allows so called kinematic orbits (i.e. purely from geometric techniques), to be computed with about cm accuracy. Both the orbits and the satellite velocity changes are affected by the gravitational pull of the Earth, and therefore contain valuable information of the time varying Earth's gravity field. 
 And since the Swarm satellites are still in orbit, trying to compute gravity fields from the orbits, albeit with decreased accuracy, is actually a promising spin-off in addition to its primary mission of measuring the Earth's magnetic field.
 

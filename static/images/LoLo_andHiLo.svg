@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="547.86" width="1448.3" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4">
+  <marker id="Tail" refY="0" refX="0" orient="auto" overflow="visible">
+   <g id="g5457" transform="scale(-1.2)">
+    <path id="path5459" d="m-3.8049-3.9585 4.3484 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5461" d="m-1.2867-3.9585 4.3484 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5463" d="m1.3054-3.9585 4.3483 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5465" d="m-3.8049 4.1776 4.3484-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5467" d="m-1.2867 4.1776 4.3484-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5469" d="m1.3054 4.1776 4.3483-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+   </g>
+  </marker>
+  <marker id="Arrow1Lstart" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path10167" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.8 0 0 .8 10 0)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow1Lstart-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path10167-1" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.8 0 0 .8 10 0)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Tail-0" refY="0" refX="0" orient="auto" overflow="visible">
+   <g id="g5457-0" transform="scale(-1.2)">
+    <path id="path5459-6" d="m-3.8049-3.9585 4.3484 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5461-4" d="m-1.2867-3.9585 4.3484 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5463-4" d="m1.3054-3.9585 4.3483 3.9585" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5465-3" d="m-3.8049 4.1776 4.3484-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5467-7" d="m-1.2867 4.1776 4.3484-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+    <path id="path5469-3" d="m1.3054 4.1776 4.3483-3.9579" stroke="#000" stroke-linecap="round" stroke-width="0.8" fill="none"/>
+   </g>
+  </marker>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-57.622 -130.24)">
+  <path id="path9107" marker-end="url(#Tail)" d="m164.84 211.11 252.1 359.41" marker-start="url(#Arrow1Lstart)" stroke="#000" stroke-miterlimit="3.1" stroke-width="3.3756" fill="none"/>
+  <path id="path2804" d="m453.86 408.02c0 45.95-34.13 77.052-61.282 101.47-26.832 24.131-70.497 70.063-116.44 70.063-45.945 0-44.137-31.904-81.425-52.532-36.384-20.129-88.796-54.247-88.796-100.2 0-45.95 30.278-81.892 42.522-122.71 9.1289-30.432 75.151-58.765 125.2-57.535 45.916 1.1287 80.053 35.006 118.94 58.869 36.307 22.282 61.29 56.636 61.29 102.57z" fill-rule="evenodd" fill="#005f9c"/>
+  <text id="text3243" xml:space="preserve" transform="translate(224.62 138.55)" font-size="40px" y="346.6694" x="-152.57841" font-family="&apos;Bitstream Vera Sans&apos;" fill="#000000"><tspan id="tspan3245" x="-152.57841" y="346.6694"/></text>
+  <g id="g3799"></g>
+  <flowRoot id="flowRoot3146" font-size="40px" xml:space="preserve" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-family="Sans" fill="#000000"><flowRegion id="flowRegion3148"><rect id="rect3150" y="-122.9" width="639.08" x="95.049" height="111.31"/></flowRegion><flowPara id="flowPara3152"/></flowRoot>
+  <path id="path3479" opacity="0.99" d="m487.76 538.05c-42.011 61.218-64.803 62.494-112 73.93-58.96 14.286-163.02 25.957-217.16-10.748-54.15-36.71-74.146-99.88-89.119-162.12-14.974-62.23-16.167-149.78 20.539-203.92 36.7-54.14 119.19-42.89 179.8-45.38 63.116-2.5926 100.61-5.1254 154.76 31.58 31.251 21.186 53.665 32.818 72.482 65.55" stroke="#005f9c" stroke-dasharray="16, 4" stroke-width="4" fill="none"/>
+  <g id="g4477" stroke="#000" fill-rule="evenodd">
+   <path id="path27162" stroke-linejoin="bevel" d="m503.84 342.94-4.6113 23.371-18.331 20.78 12.157-61.613 10.785 17.463z" stroke-opacity=".74118" stroke-linecap="square" stroke-width="1.4412" fill="#ff4d1c"/>
+   <path id="path27166" d="m499.56 281.54c4.5432 63.054 4.5432 63.054 4.5432 63.054l-10.344-16.915-5.0258-62.999 10.827 16.86z" fill-opacity=".99216" stroke-width="1.0438" fill="#005f9c"/>
+   <path id="path27196" d="m475.51 323.44l13.109-59.542 4.6114 66.753-12.95 55.899-4.7698-63.11z" stroke-width="1px" fill="#005f9c"/>
+  </g>
+  <path id="path29013" d="m489.28 387.92-0.88434 15.918 20.34 6.1904-42.448 0.88434 22.993 4.4217v13.265" stroke="#f00" stroke-width="4" fill="none"/>
+  <g id="g4107" transform="translate(10.612 -10.612)" stroke="#000" stroke-linecap="round">
+   <rect id="rect5396" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="41.793" width="34.93" y="-370.65" x="735.25" stroke-width="2.1937" fill="#969696"/>
+   <rect id="rect5398" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-420.65" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+   <rect id="rect5400" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-320.09" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+  </g>
+  <g id="g4107-0" transform="matrix(.73354 -.67965 .67965 .73354 -205.2 247.71)" stroke="#000" stroke-linecap="round">
+   <rect id="rect5396-4" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="41.793" width="34.93" y="-370.65" x="735.25" stroke-width="2.1937" fill="#969696"/>
+   <rect id="rect5398-7" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-420.65" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+   <rect id="rect5400-6" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-320.09" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+  </g>
+  <g id="g4477-8" fill-rule="evenodd" stroke="#000" transform="matrix(.99771 .067644 -.067644 .99771 18.709 136.5)">
+   <path id="path27162-9" stroke-linejoin="bevel" d="m503.84 342.94-4.6113 23.371-18.331 20.78 12.157-61.613 10.785 17.463z" stroke-opacity=".74118" stroke-linecap="square" stroke-width="1.4412" fill="#ff4d1c"/>
+   <path id="path27166-0" d="m499.56 281.54c4.5432 63.054 4.5432 63.054 4.5432 63.054l-10.344-16.915-5.0258-62.999 10.827 16.86z" fill-opacity=".99216" stroke-width="1.0438" fill="#005f9c"/>
+   <path id="path27196-6" d="m475.51 323.44l13.109-59.542 4.6114 66.753-12.95 55.899-4.7698-63.11z" stroke-width="1px" fill="#005f9c"/>
+  </g>
+  <g>
+   <flowRoot id="flowRoot29942-8" xml:space="preserve" transform="translate(431.45 108.3)" fill="#ff0000"><flowRegion id="flowRegion29944-1"><rect id="rect29946-0" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara3263-2" font-size="28px" font-weight="bold" fill="#ff0000">K-Band</flowPara></flowRoot>
+   <flowRoot id="flowRoot29942-6" xml:space="preserve" transform="translate(433.38 44.948)" fill="#ff0000"><flowRegion id="flowRegion29944-2"><rect id="rect29946-5" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara3263-9" font-size="28px" font-weight="bold" fill="#ff0000">GRACE</flowPara></flowRoot>
+   <path id="path2804-5" d="m441.74 408.8c0 43.189-25.855 81.145-56.649 96.548-35.942 17.979-57.084 59.976-100.44 59.976-43.357 0-67.614-32.337-102.8-51.727-34.334-18.919-54.288-61.566-54.288-104.76 0-43.189 28.572-62.865 40.126-101.23 8.6146-28.603 69.737-56.41 116.96-55.253 43.329 1.0609 55.479 43.482 92.172 65.911 34.262 20.943 64.917 47.355 64.917 90.53z" fill-rule="evenodd" fill="#c8c8c8"/>
+   <flowRoot id="flowRoot29942-9" xml:space="preserve" transform="translate(573.62 -86.347)" fill="#ff0000"><flowRegion id="flowRegion29944-7"><rect id="rect29946-06" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara5076-9" font-size="28px" font-weight="bold" fill="#ff0000">GPS</flowPara></flowRoot>
+   <flowRoot id="flowRoot29942" xml:space="preserve" transform="translate(96.41 74.665)" fill="#005f9c"><flowRegion id="flowRegion29944"><rect id="rect29946" height="140.67" width="564.09" y="291.31" x="84.896" fill="#005f9c"/></flowRegion><flowPara id="flowPara5076" font-size="28px" font-weight="bold" fill="#005f9c">Solid Earth &amp;</flowPara><flowPara id="flowPara5122" font-size="28px" font-weight="bold" fill="#005f9c">Fluid envelope</flowPara></flowRoot>
+   <flowRoot id="flowRoot29942-9-4" xml:space="preserve" transform="translate(574.78 246.3)" fill="#ff0000"><flowRegion id="flowRegion29944-7-7"><rect id="rect29946-06-1" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara5076-9-3" font-size="28px" font-weight="bold" fill="#ff0000">GPS</flowPara></flowRoot>
+  </g>
+  <g fill="none">
+   <path id="path3259" d="m596.89 260.47-81.706 50.33" stroke="#f00" stroke-dasharray="31.99999982, 7.99999996, 3.99999999, 7.99999996" stroke-width="4"/>
+   <path id="path3259-7" d="m600.5 539.27-88.91-47.02" stroke="#f00" stroke-dasharray="31.99999973, 7.99999994, 3.99999998, 7.99999994" stroke-width="4"/>
+   <path id="path9107-4" marker-end="url(#Tail-0)" d="m934.45 204.3 252.1 359.41" marker-start="url(#Arrow1Lstart-4)" stroke="#000" stroke-miterlimit="3.1" stroke-width="3.3756"/>
+  </g>
+  <path id="path2804-7" d="m1223.5 401.22c0 45.95-34.13 77.052-61.282 101.47-26.832 24.131-70.497 70.063-116.44 70.063-45.945 0-44.137-31.904-81.425-52.532-36.384-20.129-88.796-54.247-88.796-100.2 0-45.95 30.278-81.892 42.522-122.71 9.1289-30.432 75.151-58.765 125.2-57.535 45.916 1.1287 80.053 35.006 118.94 58.869 36.307 22.282 61.29 56.636 61.29 102.57z" fill-rule="evenodd" fill="#005f9c"/>
+  <path id="path3479-2" opacity="0.99" d="m1218.6 578.77c-229.81 94.49-375.2-85-379.51-187.73s109.26-189.76 200.31-208.03c80.884-2.9074 139.96 9.5073 185.97 43.353" stroke="#005f9c" stroke-dasharray="16, 4" stroke-width="4" fill="none"/>
+  <g id="g4107-1" transform="translate(816.49 -4.9083)" stroke="#000" stroke-linecap="round">
+   <rect id="rect5396-7" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="41.793" width="34.93" y="-370.65" x="735.25" stroke-width="2.1937" fill="#969696"/>
+   <rect id="rect5398-9" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-420.65" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+   <rect id="rect5400-5" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-320.09" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+  </g>
+  <path id="path3259-6" d="m1390.3 227.69-110.62 68.897" stroke="#f00" stroke-dasharray="31.99999979, 7.99999995, 3.99999998, 7.99999995" stroke-width="4" fill="none"/>
+  <g id="g4107-0-8" transform="matrix(.73354 -.67965 .67965 .73354 594.42 224.65)" stroke="#000" stroke-linecap="round">
+   <rect id="rect5396-4-9" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="41.793" width="34.93" y="-370.65" x="735.25" stroke-width="2.1937" fill="#969696"/>
+   <rect id="rect5398-7-5" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-420.65" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+   <rect id="rect5400-6-5" opacity="0.99" transform="matrix(.95402 .29975 .29975 -.95402 0 0)" height="42.541" width="16.483" y="-320.09" x="745.01" stroke-width="1.5204" fill="#005f9c"/>
+  </g>
+  <g>
+   <path id="path2804-5-2" d="m1211.3 402c0 43.189-25.855 81.145-56.649 96.548-35.942 17.979-57.084 59.976-100.44 59.976-43.357 0-67.614-32.337-102.8-51.727-34.334-18.919-54.288-61.566-54.288-104.76 0-43.189 28.572-62.865 40.126-101.23 8.6146-28.603 69.737-56.41 116.96-55.253 43.329 1.0609 55.479 43.482 92.172 65.911 34.262 20.943 64.917 47.355 64.917 90.53z" fill-rule="evenodd" fill="#c8c8c8"/>
+   <flowRoot id="flowRoot29942-9-1" xml:space="preserve" transform="translate(1363.2 -105.66)" fill="#ff0000"><flowRegion id="flowRegion29944-7-5"><rect id="rect29946-06-9" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara5076-9-9" font-size="28px" font-weight="bold" fill="#ff0000">GPS</flowPara></flowRoot>
+   <flowRoot id="flowRoot29942-1" xml:space="preserve" transform="translate(866.02 67.862)" fill="#005f9c"><flowRegion id="flowRegion29944-6"><rect id="rect29946-2" height="140.67" width="564.09" y="291.31" x="84.896" fill="#005f9c"/></flowRegion><flowPara id="flowPara5076-1" font-size="28px" font-weight="bold" fill="#005f9c">Solid Earth &amp;</flowPara><flowPara id="flowPara5122-0" font-size="28px" font-weight="bold" fill="#005f9c">Fluid envelope</flowPara></flowRoot>
+   <flowRoot id="flowRoot29942-9-4-5" xml:space="preserve" transform="translate(1349.4 292.03)" fill="#ff0000"><flowRegion id="flowRegion29944-7-7-3"><rect id="rect29946-06-1-2" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara5076-9-3-1" font-size="28px" font-weight="bold" fill="#ff0000">GPS</flowPara></flowRoot>
+  </g>
+  <g id="g5028" stroke="#000" transform="matrix(-.30154 -.95345 -.95345 .30154 1425.1 660.66)">
+   <g id="g4477-9" fill-rule="evenodd" transform="matrix(-.077214 -.99701 .99701 -.077214 104.92 565.87)">
+    <path id="path27162-5" stroke-linejoin="bevel" d="m503.84 342.94-4.6113 23.371-18.331 20.78 12.157-61.613 10.785 17.463z" stroke-opacity=".74118" stroke-linecap="square" stroke-width="1.4412" fill="#ff4d1c"/>
+    <path id="path27166-2" d="m499.56 281.54c4.5432 63.054 4.5432 63.054 4.5432 63.054l-10.344-16.915-5.0258-62.999 10.827 16.86z" fill-opacity=".99216" stroke-width="1.0438" fill="#005f9c"/>
+    <path id="path27196-1" d="m475.51 323.44l13.109-59.542 4.6114 66.753-12.95 55.899-4.7698-63.11z" stroke-width="1px" fill="#005f9c"/>
+   </g>
+   <rect id="rect4995" opacity="0.99" stroke-linejoin="round" height="7.5039" width="85.184" stroke-linecap="square" stroke-miterlimit="0.8" y="42.39" x="426.6" stroke-width="2"/>
+  </g>
+  <g id="g5028-4" stroke="#000" transform="matrix(.32241 -.94660 -.94660 -.32241 1173.4 909.74)">
+   <g id="g4477-9-2" fill-rule="evenodd" transform="matrix(-.077214 -.99701 .99701 -.077214 104.92 565.87)">
+    <path id="path27162-5-4" stroke-linejoin="bevel" d="m503.84 342.94-4.6113 23.371-18.331 20.78 12.157-61.613 10.785 17.463z" stroke-opacity=".74118" stroke-linecap="square" stroke-width="1.4412" fill="#ff4d1c"/>
+    <path id="path27166-2-6" d="m499.56 281.54c4.5432 63.054 4.5432 63.054 4.5432 63.054l-10.344-16.915-5.0258-62.999 10.827 16.86z" fill-opacity=".99216" stroke-width="1.0438" fill="#005f9c"/>
+    <path id="path27196-1-4" d="m475.51 323.44l13.109-59.542 4.6114 66.753-12.95 55.899-4.7698-63.11z" stroke-width="1px" fill="#005f9c"/>
+   </g>
+   <rect id="rect4995-9" opacity="0.99" stroke-linejoin="round" height="7.5039" width="85.184" stroke-linecap="square" stroke-miterlimit="0.8" y="42.39" x="426.6" stroke-width="2"/>
+  </g>
+  <g id="g5028-8" stroke="#000" transform="matrix(-.0080476 -.99997 -.99997 .0080476 1409.1 796.9)">
+   <g id="g4477-9-4" fill-rule="evenodd" transform="matrix(-.077214 -.99701 .99701 -.077214 104.92 565.87)">
+    <path id="path27162-5-2" stroke-linejoin="bevel" d="m503.84 342.94-4.6113 23.371-18.331 20.78 12.157-61.613 10.785 17.463z" stroke-opacity=".74118" stroke-linecap="square" stroke-width="1.4412" fill="#ff4d1c"/>
+    <path id="path27166-2-5" d="m499.56 281.54c4.5432 63.054 4.5432 63.054 4.5432 63.054l-10.344-16.915-5.0258-62.999 10.827 16.86z" fill-opacity=".99216" stroke-width="1.0438" fill="#005f9c"/>
+    <path id="path27196-1-7" d="m475.51 323.44l13.109-59.542 4.6114 66.753-12.95 55.899-4.7698-63.11z" stroke-width="1px" fill="#005f9c"/>
+   </g>
+   <rect id="rect4995-2" opacity="0.99" stroke-linejoin="round" height="7.5039" width="85.184" stroke-linecap="square" stroke-miterlimit="0.8" y="42.39" x="426.6" stroke-width="2"/>
+  </g>
+  <path id="path3479-7" opacity="0.99" d="m1340.4 479.15c-30.701 78.226-132.33 192.82-251.92 196.2-119.59 3.3804-301.15-125.4-310.56-276.43-6.5324-104.85 76.54-271.44 284.64-266.57 149.55 3.5014 232.4 48.445 283.79 190.78" stroke="#005f9c" stroke-dasharray="15.99999996, 3.99999999" stroke-width="4" fill="none"/>
+  <flowRoot id="flowRoot29942-9-44" xml:space="preserve" transform="translate(1151.5 77.168)" fill="#ff0000"><flowRegion id="flowRegion29944-7-0"><rect id="rect29946-06-5" height="140.67" width="564.09" y="291.31" x="84.896" fill="#f00"/></flowRegion><flowPara id="flowPara5076-9-6" font-size="28px" font-weight="bold" fill="#ff0000">Swarm</flowPara></flowRoot>
+  <g stroke="#f00" stroke-width="4" fill="none">
+   <path id="path3259-0" d="m1403.9 247.55-27.587 158.87" stroke-dasharray="32.00000038, 8.0000001, 4.00000005, 8.0000001"/>
+   <path id="path3259-5" d="m1405.5 522.54-34.626-94.707" stroke-dasharray="31.99999997, 8, 4, 8"/>
+   <path id="path3259-2" d="m1395 544.76-127.4-10.33" stroke-dasharray="31.99999976, 7.99999994, 3.99999998, 7.99999994"/>
+  </g>
+ </g>
+</svg>
