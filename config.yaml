@@ -21,15 +21,16 @@ permalinks:
     about: "/:filename/"
 params:
     title: "Wobbly Earth"
-    author: "Roelof Rietbroek"
+    author: "Roelof  Rietbroek"
     avatar: "/images/avatar.jpg"
     postimage: "/images/schuifmaat.jpg"
     ogimage: "/images/Screenshot_home_og.png"
     background: "/images/background.jpg"
     description: "Academic blog of Roelof Rietbroek (PhD in geodesy), covering posts on science, opinion pieces, (peer-reviewed) publications and scientific projects and software"
     image: "/images/avatar.jpg" #for frontpage profile card
+    about: "Welcome to Wobbly Earth, the homepage of Roelof Rietbroek"
     logo: "/images/WBlogo_64x64.png"
-    website: "http://www.igg.uni-bonn.de/apmg/index.php?id=rietbroek"
+    website: "https://www.apmg.uni-bonn.de/personal/mitarbeiter/roelof"
     email: "roelof@wobbly.earth"
     twitter: "https://twitter.com/r_rietje"
     github: "https://github.com/strawpants/"
