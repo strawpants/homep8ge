@@ -46,6 +46,7 @@ To avoid contamination by force models, a purely kinematic orbit derived from GN
 
 Interestingly, since the GNSS signals will travel through the Earth's ionosphere, they will be sensitive to the fluctuating electron content in it. The activity in the ionosphere, is therefore related to the geomagnetic field and solar activity. For example, the GNSS signals clearly show anomalies when passing over the magnetic equator. A close cooperation with magnetic field experts available within the dynamic Earth program, thus opens up interesting possiblities to observe such ionospheric fluctuations and potentially improve the accuracy of the orbits.
 
+{{< figure src="/images/SwarmARMSnov2015.png" title="RMS of GNSS residuals from Swarm-A in November 2015. The anomalies show the structure of the magnetic equator in the central Atlantic and the magnetic south and North pole." attr="courtesy Le Ren (Ife Hanover)">}}
 ### Combining CHAMP, GRACE and Swarm with altimetry to resolve for the sea level budget
 Several low Earth orbiters provide information on the gravity field, the CHAMP and GRACE missions have ended in the meanwhile, and although a GRACE follow on mission is planned for launch in april 2018, there is now, since the end of 2017, a GRACE gap. An alternative is therefore to [use the existing Swarm mission to fill this gap](/post/mindthegap). 
 
