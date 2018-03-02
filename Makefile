@@ -2,10 +2,13 @@
 all:build
 
 build:
+	git checkout master
 	hugo -t HugoMDL
 	
 publish: build
 	@echo 'Publishing website to http://strawpants.github.io'
+	git add public
+	git commit -m "Publish website"
 	git subtree push --prefix=public publish master
 show:
 	@echo 'running test server, visit http://localhost:1313 to preview the page'
