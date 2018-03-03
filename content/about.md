@@ -68,8 +68,9 @@ There are several courses I teach/taught and practicals I supervise. Most of the
 * [Globales Geomonitoring (Msc)](https://www.gug.uni-bonn.de/studierende/modulbeschreibungen/20152/340-modulbeschreibung-m21-20152-150916.pdf)
 
 #### [Projects](/project)
+* CONTIM: Consistent Ocean Mass Time Series from LEO Potential Field Missions  [description](/project/contim)
+* [GROCE](groce.de): Greenland Ice Sheet/Ocean Interaction 
 * [Band-Aid](/project/bandaid): Bangladesh Delta: Assessment of the Causes of Sea-level Rise Hazards and Integrated Development of Predictive Modeling Towards Mitigation and Adaptation.
-* CONTIM: Consistent Ocean Mass Time Series from LEO Potential Field Missions  [description](http://gepris.dfg.de/gepris/projekt/273514821)
 * JIGOG: Surface mass redistribution from joint inversion of GPS site displacements, ocean bottom pressure models and GRACE global gravity models [former project site](http://massentransporte.de/index.php?id=210)
 * STREMP: Spatial and Temporal Resolution Limits for Regional Mass Transport and Mass Distribution [former project site](http://massentransporte.de/index.php?id=199)
 * FIGO: Fingerprints of ice melting in geodetic GRACE and ocean models [former project site](http://massentransporte.de/index.php?id=214)
