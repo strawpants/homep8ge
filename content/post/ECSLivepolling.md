@@ -34,8 +34,6 @@ sitemap:
 
 
 ## First Question
-{{< gchart ChartID="d/e/2PACX-1vTgluEC23Xwy3paGhZyExTQzcdk1lwd2KGWBRzfea276yilGZOytm5iM1ciMEu3AEHlClmdVXnGEeQ0/pubchart?oid=1932851296" >}}
-{{< gchart ChartID="d/e/2PACX-1vTgluEC23Xwy3paGhZyExTQzcdk1lwd2KGWBRzfea276yilGZOytm5iM1ciMEu3AEHlClmdVXnGEeQ0/pubchart?oid=1921840431" >}}
 
 <div id="chart_test" style="height: 400px; width: 400px;"></div>
 
