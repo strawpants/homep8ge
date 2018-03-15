@@ -4,6 +4,9 @@ title: "ECS Forum Live polling"
 description: "Post which monitors the Live poll from the ECS forum at EGU's general assembly"
 date: "2018-04-12"
 layout: single
+jsinclude: 
+    - https://www.gstatic.com/charts/loader.js
+    - /js/livepoll.js    
 categories:
     - "post"
 tags:
@@ -33,4 +36,6 @@ sitemap:
 ## First Question
 {{< gchart ChartID="d/e/2PACX-1vTgluEC23Xwy3paGhZyExTQzcdk1lwd2KGWBRzfea276yilGZOytm5iM1ciMEu3AEHlClmdVXnGEeQ0/pubchart?oid=1932851296" >}}
 {{< gchart ChartID="d/e/2PACX-1vTgluEC23Xwy3paGhZyExTQzcdk1lwd2KGWBRzfea276yilGZOytm5iM1ciMEu3AEHlClmdVXnGEeQ0/pubchart?oid=1921840431" >}}
+
+<div id="chart_test" style="height: 400px; width: 400px;"></div>
 
