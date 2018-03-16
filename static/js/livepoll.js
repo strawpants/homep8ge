@@ -23,31 +23,42 @@ function  handleQueryResponse(response){
       
       // Instantiate and draw the chart.
       var chart = new google.visualization.PieChart(document.getElementById('chart_test'));
-      chart.draw(data, null);
+       var opt={title:'Division'}
+      chart.draw(data, opt);
 }
 
 //function to count occurences in a google datatable column
 function countOccurences(inarr){
-    var countarr=[];
+    var dt=new google.visualization.DataTable();
+    //first column contains unique entries
+    dt.addColumn(inarr.getColumnType(0),inarr.getColumnLabel(0));
+    //second column the number of occurences
+    dt.addColumn('number','Occurences');
     
     var distinct=inarr.getDistinctValues(0);
-    for (var i=0;i<distinct.length;++i){
-        if (distinct[i] != null){
-                    countarr.push([distinct[i],0]);
+    
+    for(var i=0; i< distinct.length;++i){
+        //possibly skip null entries
+        if (distinct[i]== null){
+            continue;
         }
+       dt.addRow([distinct[i],0]);
     }
 
-
+        
     var len=inarr.getNumberOfRows();
     for(var j=0;j<len;++j){
-           for (var i=0;i<countarr.length;++i){
-                if (countarr[i][0] == inarr.getValue(j,0)){
-                    //increase countarr
-                    countarr[i][1]++;
+        for (var i=0;i<dt.getNumberOfRows();++i){
+            if (dt.getValue(i,0) == inarr.getValue(j,0)){
+                    //increase count
+                    var cnt=dt.getValue(i,1)+1
+                    dt.getValue(i,1,cnt);          
                     break;
-                }
-        }
+            }
 
+        }
     }
-    return google.visualization.arrayToDataTable(countarr);
+
+    return dt
+    
 }

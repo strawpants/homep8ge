@@ -35,5 +35,5 @@ sitemap:
 
 ## First Question
 
-<div id="chart_test" style="height: 400px; width: 400px;"></div>
+<div id="chart_test" ></div>
 
