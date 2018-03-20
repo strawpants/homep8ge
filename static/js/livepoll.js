@@ -1,9 +1,52 @@
+//class which holds a question
+class pollQuestion{
+    constructor(qtype,id,question,answers){
+        this.qtype=qtype;
+        this.id=id;
+       
+        //now insert the question in the dom 
+        var qel=document.getElementById(id);
+        var header=document.createElement('h4');
+        header.innerHTML=question;
+        qel.appendChild(header);
+        var ans=qel.appendChild(document.createElement('div'));
+        //also insert the answers
+        switch(qtype){
+            case "MC":
+                pollQuestion.formatMCAnswers(qel,answers);
+            break;
+        }
+          
+       
+        }
+    getId(){return this.id;}
+    
+    static formatMCAnswers(el,answers){
+        var tmp=0;
+        
+    }
+}
+
+class livePoll{
+    constructor(URL){
+        this.URL=URL;
+        //initialize google charts
+        google.charts.load('current', {packages: ['corechart']});
+        this.Qs=[];      
+    }
+
+    //function which registers all added questions on the page
+    appendQ(pQuestion){
+        this.Qs.push(pQuestion);
+    }
+}
+
 // Load Charts and the corechart package.
 
-google.charts.load('current', {packages: ['corechart']});
-    google.charts.setOnLoadCallback(QueryGdata);
 
-    function QueryGdata() {
+//google.charts.setOnLoadCallback(QueryGdata);
+
+function QueryGdata() {
     var queryString = encodeURIComponent('SELECT B LIMIT 20');
     var URL='https://docs.google.com/spreadsheets/d/1tTW2rUl8CQWC39XV_2Rj_qnZgqmiOGtNfRN0VMDuVOE/gviz/tq?gid=0&tq=';
 
@@ -20,10 +63,9 @@ function  handleQueryResponse(response){
       }
         
       var data=countOccurences(response.getDataTable());
-      
       // Instantiate and draw the chart.
       var chart = new google.visualization.PieChart(document.getElementById('chart_test'));
-       var opt={title:'Division'}
+       var opt={title:'Division',pieHole: 0.5};
       chart.draw(data, opt);
 }
 
@@ -52,7 +94,7 @@ function countOccurences(inarr){
             if (dt.getValue(i,0) == inarr.getValue(j,0)){
                     //increase count
                     var cnt=dt.getValue(i,1)+1
-                    dt.getValue(i,1,cnt);          
+                    dt.setValue(i,1,cnt);          
                     break;
             }
 

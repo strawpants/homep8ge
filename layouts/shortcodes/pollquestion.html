@@ -1,0 +1,48 @@
+<div id="{{ .Get "id" }}">
+    <h4>{{.Get "question"}}</h4>
+    <!--Question with a single selection only-->
+    {{ if eq (.Get "type") "SC"}}
+    {{ $.Scratch.Set "it" 0 }}
+    {{ range split (.Get "answers") ";"}}
+            {{ $ida:= $.Scratch.Get "it" }} 
+                <label class="pollist mdl-radio mdl-js-radio mdl-js-ripple-effect" for="SClist{{$ida}}">
+                    <input type="radio" id="SClist{{$ida}}" class="mdl-radio__button" name="{{$.Get "id"}}" value="{{.}}" />
+                    <span class="mdl-radio__label">{{.}}<br></span>
+                </label>
+            {{ $.Scratch.Add "it" 1}}
+    {{end}}
+    {{end}}
+<!--Question with multiple choice-->
+    {{ if eq (.Get "type") "MC"}}
+        {{ $.Scratch.Set "it" 0 }}
+            {{ range split (.Get "answers") ";"}}
+                {{ $ida:= $.Scratch.Get "it" }} 
+                        <label class="pollist mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="MClist{{$ida}}">
+                            <input type="checkbox" id="MClist{{$ida}}" class="mdl-checkbox__input" />
+                    {{ if eq . "Other"}}
+                            <span class="mdl-checkbox__label">
+                                <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="MCFT{{$.Get "id"}}">
+                                <label class="pollist mdl-textfield__label" for="MCFT{{$.Get "id"}}">Other...</label>
+                                </div><br>
+                            </span>
+                    {{else}}
+                            <span class="mdl-checkbox__label">{{.}}<br></span>
+                    {{end}}
+                    </label>
+                {{ $.Scratch.Add "it" 1}}
+        {{end}}
+    {{end}}
+<!--Answer with free text (one line only)-->
+    {{ if eq (.Get "type") "FT"}}
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="FT{{$.Get "id"}}">
+        <label class="pollist mdl-textfield__label" for="FT{{$.Get "id"}}">Answer...</label>
+    </div><br>
+    {{end}}
+
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+Submit
+</button>
+</div>
+<!--<script>lp.appendQ(new pollQuestion("{{.Get "type"}}","{{.Get "id"}}","{{.Get "question"}}",{{.Get "answers" }})); </script>-->

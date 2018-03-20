@@ -40,11 +40,9 @@
         <link rel="stylesheet" href="/css/styles.css"/>
         {{ if .IsPage }} {{ if ( eq .Type "post" ) }} <link rel="stylesheet" href="/css/prism.css" /> {{end}} {{end}}
         {{ template "_internal/google_analytics_async.html" . }}
-        <!-- Possibly include custom javascript -->
-        {{ if .Params.jsinclude }}
-        {{ range .Params.jsinclude }}
-        <script type="text/javascript" src="{{.}}"></script>
-        {{end}}
+        <!-- Possibly include polling -->
+        {{ if .Params.livepoll }}
+        {{partial "livepoll.html" .}}
         {{end}}
 </head>
 

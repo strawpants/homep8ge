@@ -4,9 +4,8 @@ title: "ECS Forum Live polling"
 description: "Post which monitors the Live poll from the ECS forum at EGU's general assembly"
 date: "2018-04-12"
 layout: single
-jsinclude: 
-    - https://www.gstatic.com/charts/loader.js
-    - /js/livepoll.js    
+livepoll:
+    gdatasheet: "https://docs.google.com/spreadsheets/d/1H5t2_YSCLREBXxj0NFp2VxB4JsktzSRJcKloNvrKy00"
 categories:
     - "post"
 tags:
@@ -35,5 +34,11 @@ sitemap:
 
 ## First Question
 
-<div id="chart_test" ></div>
+<div id="chart_test" style="width:500px;height:400px" gchart="Piechart" ></div>
 
+## Second l
+{{< pollquestion question="Bellysleeper?" answers="Yes;No;Other" type="SC"  id="q1" >}}
+
+{{< pollquestion question="What do you like more?" answers="Answer 1;Answer 2;Answer 3;Other" type="MC"  id="q2" >}}
+
+{{< pollquestion question="Current Mood?"  type="FT"  id="q3" >}}
