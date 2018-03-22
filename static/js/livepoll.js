@@ -1,3 +1,18 @@
+function submitPoll(frmID){
+    var serData=$("#"+frmID+ " :input").filter(function(idx,el){
+        return $(el).val() != '';
+    }).serialize();
+
+    //submit data to googlesheet
+    request = $.ajax({
+            url: lp.URL,
+            type: "post",
+            data: serData
+    });
+
+}
+
+
 //class which holds a question
 class pollQuestion{
     constructor(qtype,id,question,answers){
@@ -31,14 +46,14 @@ class livePoll{
     constructor(URL){
         this.URL=URL;
         //initialize google charts
-        google.charts.load('current', {packages: ['corechart']});
-        this.Qs=[];      
+       // google.charts.load('current', {packages: ['corechart']});
+       // this.Qs=[];      
     }
 
     //function which registers all added questions on the page
-    appendQ(pQuestion){
-        this.Qs.push(pQuestion);
-    }
+//    appendQ(pQuestion){
+  //      this.Qs.push(pQuestion);
+    //}
 }
 
 // Load Charts and the corechart package.

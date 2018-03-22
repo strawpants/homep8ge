@@ -6,6 +6,7 @@ date: "2018-04-12"
 layout: single
 livepoll:
     gdatasheet: "https://docs.google.com/spreadsheets/d/1H5t2_YSCLREBXxj0NFp2VxB4JsktzSRJcKloNvrKy00"
+    gdataURL: "https://script.google.com/macros/s/AKfycbzteb8JQVg_VM5aRp2ekih2jFtlFaiPqnEunFZFpjU7tLlMOYQj/exec"
 categories:
     - "post"
 tags:
