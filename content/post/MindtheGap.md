@@ -33,7 +33,7 @@ sitemap:
     priority: 0.6
 ---
 
-Around Christmas time last year, a falling star, caused by the reentry of the GRACE-2 satellite vehicle, marked the end of an unprecedented gravity mission. It therefore makes sense to find alternatives for the Gravity Recovery and Climate Experiment (GRACE), which can be used to bridge the gap with the GRACE Follow-on mission. A [recent paper by Christina Lück et al.](https://www.solid-earth-discuss.net/se-2017-127/) now shows whether the Swarm mission can help out in filling this gap.
+Around Christmas time last year, a falling star, caused by the reentry of the GRACE-2 satellite vehicle, marked the end of an unprecedented gravity mission. It therefore makes sense to find alternatives for the Gravity Recovery and Climate Experiment (GRACE), which can be used to bridge the gap with the GRACE Follow-on mission. A [recent paper by Christina Lück et al.](https://www.solid-earth.net/9/323/2018/se-9-323-2018.html/) now shows whether the Swarm mission can help out in filling this gap.
 <!--more-->
 
 Christina is a researcher within the DFG funded project ["Consistent Ocean Mass Time Series from LEO Potential Field Missions" (CONTIM)](/project/contim). Her recently published study paves the way for using Swarm as a GRACE-alternative to retrieve large scale ocean bottom pressure variations.   
