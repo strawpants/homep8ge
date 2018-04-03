@@ -5,8 +5,7 @@ description: "Post which monitors the Live poll from the ECS forum at EGU's gene
 date: "2018-04-12"
 layout: single
 livepoll:
-    gdatasheet: "https://docs.google.com/spreadsheets/d/1H5t2_YSCLREBXxj0NFp2VxB4JsktzSRJcKloNvrKy00"
-    gdataURL: "https://script.google.com/macros/s/AKfycbzteb8JQVg_VM5aRp2ekih2jFtlFaiPqnEunFZFpjU7tLlMOYQj/exec"
+    gdataURL: "https://script.google.com/macros/s/AKfycbwe2qd2QrSerhs4AV4PALiCFaViIWPn5NRcEfv714fOdPRZP4Y/exec"
 categories:
     - "post"
 tags:
@@ -34,11 +33,13 @@ sitemap:
 
 
 ## First Question
-
+[see](https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/)
 <div id="chart_test" style="width:500px;height:400px" gchart="Piechart" ></div>
 
 ## Second l
+{{< gchart id="q1" chartType="Doughnut" >}}
 {{< pollquestion question="Bellysleeper?" answers="Yes;No;Other" type="SC"  id="q1" >}}
+
 
 {{< pollquestion question="What do you like more?" answers="Answer 1;Answer 2;Answer 3;Other" type="MC"  id="q2" >}}
 

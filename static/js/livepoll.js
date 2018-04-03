@@ -3,15 +3,27 @@ function submitPoll(frmID){
         return $(el).val() != '';
     }).serialize();
 
-    //submit data to googlesheet
+     //submit data to googlesheet
     request = $.ajax({
             url: lp.URL,
             type: "post",
-            data: serData
+            data: "action=push&"+serData
     });
 
 }
 
+//function which returns the answers to a polling question
+function getPollData(pollid){
+    request = $.ajax({
+            url: lp.URL,
+            type: "get",
+            data: "action=pull",
+            complete:function (respDat){console.log(respDat);}
+    });
+
+}
+
+//setInterval + function??
 
 //class which holds a question
 class pollQuestion{

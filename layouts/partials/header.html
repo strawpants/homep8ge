@@ -39,7 +39,10 @@
         <link rel="stylesheet" href="/css/material.min.css"/>
         <link rel="stylesheet" href="/css/styles.css"/>
         {{ if .IsPage }} {{ if ( eq .Type "post" ) }} <link rel="stylesheet" href="/css/prism.css" /> {{end}} {{end}}
-        {{ template "_internal/google_analytics_async.html" . }}
+
+        {{if  ne ( getenv "WOBBLY_DEBUG" ) "True" }}
+            {{ template "_internal/google_analytics_async.html" . }}
+        {{end}}
         <!-- Possibly include polling -->
         {{ if .Params.livepoll }}
         {{partial "livepoll.html" .}}
