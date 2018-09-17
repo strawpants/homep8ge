@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<div class="hugo-blog__posts mdl-grid about">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+    <div class="mdl-card__media" style="{{with .Params.cardheaderimage}}background-image: url('{{.}}');{{end}} {{with .Params.cardbackground}}background-color:{{.}};{{end}}">
+        <div class="about-text">
+        <h3 {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{ title .Title }}</h3>
+        <p {{ with .Params.cardtitlecolor }}style="color:{{.}};"{{end}}>{{.Params.blurb }}</p>
+        </div>
+    </div>
+
+    <div class="mdl-color-text--grey-700 hugo-content ">
+  
+      {{ if .Content }}{{ .Content }}{{ end }}
+<!-- temporary comment out      
+          {{ if .Params.recentprojects }}
+          <div class="list">
+            <h4>Recent Projects</h4>
+            <ul>
+              {{range first .Params.recentprojects (where .Site.Pages "Section" "project")}}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }} 
+          
+          {{ if .Params.recentposts }}
+          <div class="list">
+            <h4>Recent Posts</h4>
+            <ul>
+              {{ range first .Params.recentposts (where .Site.Pages "Section" "post") }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+
+       {{ end }}
+-->
+
+      
+    </div>
+
+  </div>
+</div>
+{{ partial "footer.html" . }}

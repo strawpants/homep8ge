@@ -1,8 +1,2 @@
-#Homepage
-Code and content to build my static homepage with hugo
-The homepage can (currently) be visited at: https://strawpants.github.io
-
-##Building the homepage
-Of course you first need to clone or fork this project:
-
-
+# Homepage of strawpants.github.io
+This repository contains a static website build with hugo. The website lives at [wobbly.earth](http://wobbly.earth)
