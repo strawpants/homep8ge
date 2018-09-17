@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 layout: single
 description: "Describes the privacy policy for the wobbly.earth website"
-date: "2018-05-24444"
+date: "2018-05-24"
 cardthumbimage: "/images/default.jpg" #optional: default solid color if unset
 cardheaderimage: "/images/default.jpg" #optional: default solid color if unset
 cardbackground: "#263238" #optional: card background color; only shows when no image specified
