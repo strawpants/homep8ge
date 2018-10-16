@@ -9,7 +9,7 @@
         </div>
 
         <!-- list of posts -->
-        {{ template "theme/partials/pagination.html" . }} {{ range .Paginator.Pages }} {{ .Render "listitem" }} {{ end }}
+        {{ template "partials/pagination.html" . }} {{ range .Paginator.Pages }} {{ .Render "listitem" }} {{ end }}
         {{ partial "pagination.html" . }}
     </div>
 </div>
