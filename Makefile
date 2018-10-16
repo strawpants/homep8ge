@@ -1,4 +1,8 @@
 #Makefile to build the website using hugo
+
+#environment variable to be used in hugo server (takes out google analytics for example)
+export WOBBLY_DEBUG=True
+
 all:build
 
 build:
