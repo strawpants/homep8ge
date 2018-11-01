@@ -19,6 +19,19 @@ taxonomies:
 permalinks:
     page: "/:title/"
     about: "/:filename/"
+privacy:
+    googleAnalytics:
+        anonymizeIP: true
+        disable: false
+        respectDoNotTrack: true
+        useSessionStorage: true
+    twitter:
+        disable: false
+        enableDNT: true
+        simple: false
+    youtube:
+        disable: false
+        privacyEnhanced: true
 params:
     title: "Wobbly Earth"
     author: "Roelof  Rietbroek"

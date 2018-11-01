@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/env python3
 #python script to parse publications from zotero in html for my academic homepage
 # the produced html (written to stdout) is intended to be used as a partial layout for the hugo generated webpage
 # aug 2016, Roelof Rietbroek
@@ -33,7 +33,7 @@ def main(args):
     
 
     #to put your APIkey in your keyring adapt the following:
-    #keyring.set_password('Zotero','PyzoteroKey','YOURAPIkey')
+    # keyring.set_password('Zotero','PyzoteroKey','YOURAPIkey')
     api_key=keyring.get_password('Zotero','PyzoteroKey')
    
    
